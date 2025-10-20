@@ -50,9 +50,10 @@
 
               <!-- Illness -->
               <el-form-item label="ប្រភេទជំងឺ (Illness)" prop="illness">
-                <el-select v-model="postForm.gender" placeholder="ជ្រើសរើសភេទ">
-                  <el-option label="ប្រុស (Male)" value="Male" />
-                  <el-option label="ស្រី (Female)" value="Female" />
+                <el-select v-model="postForm.illness" placeholder="ជ្រើសរើសភេទ">
+                  <el-option label="ជំងឺបេះដូង" value="Male" />
+                  <el-option label="ជំងឺមហារីក" value="Female" />
+                  <el-option label="ជំងឺទឹកនោមផ្អែម" value="Female" />
                 </el-select>
               </el-form-item>
 
@@ -67,32 +68,13 @@
               </el-form-item>
 
               <!-- Preview -->
-              <el-divider />
+              <!-- <el-divider />
               <div v-if="submitted" class="mt-4">
                 <h3 class="font-semibold mb-2">📋 Submitted Data:</h3>
                 <el-alert type="success" show-icon :closable="false">
-                  <pre>{{ form }}</pre>
+                  <pre>{{ postForm }}</pre>
                 </el-alert>
-              </div>
-            </el-card>
-          </el-col>
-        </el-row>
-
-        <el-row>
-          <el-col :span="24">
-            <el-card shadow="hover" class="rounded-2xl">
-              <template #header>
-                <span class="text-lg font-semibold font-bold">🩺 2. ជ្រើសរើសប្រភេទនៃជំងឺ</span>
-              </template>
-
-              <!-- Gender -->
-              <el-form-item label="ភេទ (Gender)" prop="gender">
-                <el-select placeholder="ជ្រើសរើសប្រភេទនៃជំងឺ">
-                  <el-option label="ប្រុស (Male)" value="Male" />
-                  <el-option label="ស្រី (Female)" value="Female" />
-                </el-select>
-              </el-form-item>
-
+              </div> -->
             </el-card>
           </el-col>
         </el-row>
@@ -106,9 +88,7 @@ import Sticky from '@/components/Sticky' // 粘性header组件
 import { validURL } from '@/utils/validate'
 import { fetchArticle } from '@/api/article'
 import { searchUser } from '@/api/remote-search'
-// import Warning from './Warning'
-// import { CommentDropdown, PlatformDropdown, SourceUrlDropdown } from './Dropdown'
-// import { reactive, ref } from 'vue'
+
 const defaultForm = {
   status: 'draft',
   title: '', // 文章题目
@@ -164,8 +144,8 @@ export default {
       loading: false,
       userListOptions: [],
       rules: {
-        image_uri: [{ validator: validateRequire }],
-        title: [{ validator: validateRequire }],
+        name: [{ validator: validateRequire }],
+        age: [{ validator: validateRequire }],
         content: [{ validator: validateRequire }],
         source_uri: [{ validator: validateSourceUri, trigger: 'blur' }]
       },
@@ -233,8 +213,8 @@ export default {
         if (valid) {
           this.loading = true
           this.$notify({
-            title: '成功',
-            message: '发布文章成功',
+            title: 'Save Data',
+            message: 'dd',
             type: 'success',
             duration: 2000
           })
