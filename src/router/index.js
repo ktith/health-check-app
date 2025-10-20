@@ -107,12 +107,31 @@ export const asyncRoutes = [
   {
     path: '/patients',
     component: Layout,
+    redirect: '/patients/index',
+    name: 'Patients',
+    meta: {
+      title: 'Patients',
+      icon: 'el-icon-s-help'
+    },
     children: [
       {
-        path: 'index',
+        path: 'create',
+        component: () => import('@/views/patients/create'),
+        name: 'CreatePatient',
+        meta: { title: 'Create Patient', icon: 'edit' }
+      },
+      {
+        path: 'edit/:id(\\d+)',
+        component: () => import('@/views/example/edit'),
+        name: 'EditArticle',
+        meta: { title: 'Edit Article', noCache: true, activeMenu: '/example/list' },
+        hidden: true
+      },
+      {
+        path: 'list',
         component: () => import('@/views/patients/index'),
-        name: 'Patients',
-        meta: { title: 'Patients', icon: 'peoples', affix: true }
+        name: 'PatientList',
+        meta: { title: 'Patient List', icon: 'list' }
       }
     ]
   }
