@@ -974,6 +974,11 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap/dist/js/bootstrap.bundle.min.js'
 import 'aos/dist/aos.css'
 import AOS from 'aos'
+// import Swiper from 'swiper/bundle'
+// import 'swiper/css/bundle'
+import 'glightbox/dist/css/glightbox.css'
+import GLightbox from 'glightbox'
+import PureCounter from '@srexi/purecounterjs'
 
 const iconBoxes = [
   {
@@ -1004,6 +1009,8 @@ export default {
   },
   mounted() {
     AOS.init()
+    GLightbox()
+    new PureCounter()
   }
 }
 </script>
