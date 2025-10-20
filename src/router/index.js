@@ -72,7 +72,7 @@ export const constantRoutes = [
     hidden: true
   },
   {
-    path: '/homepage',
+    path: '/',
     component: FullPageLayout,
     children: [
       {
