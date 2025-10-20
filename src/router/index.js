@@ -5,6 +5,7 @@ Vue.use(Router)
 
 /* Layout */
 import Layout from '@/layout'
+import FullPageLayout from '@/layout/FullPageLayout.vue'
 
 /* Router Modules */
 // import componentsRouter from './modules/components'
@@ -72,8 +73,15 @@ export const constantRoutes = [
   },
   {
     path: '/homepage',
-    component: () => import('@/views/homepage/index'),
-    hidden: true
+    component: FullPageLayout,
+    children: [
+      {
+        path: '',
+        component: () => import('@/views/homepage/index'),
+        name: 'Homepage',
+        meta: { title: 'Homepage', icon: 'dashboard', affix: true }
+      }
+    ]
   },
   {
     path: '/',
