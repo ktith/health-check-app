@@ -70,7 +70,7 @@
 
         <div class="container position-relative">
           <div class="welcome position-relative" data-aos="fade-down" data-aos-delay="100">
-            <h2>WELCOME TO MEDILAB</h2>
+            <h2>WELCOME TO HOSPITAL</h2>
             <p>We are a team of talented designers making websites with Bootstrap</p>
           </div>
 
