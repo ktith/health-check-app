@@ -1,117 +1,142 @@
 <template>
-  <main class="main">
-
+  <div class="conten">
     <!-- Hero Section -->
-    <section id="hero" class="hero section light-background">
-
-      <img src="assets/img/hero-bg.jpg" alt="" data-aos="fade-in">
-
-      <div class="container position-relative">
-
-        <div class="welcome position-relative" data-aos="fade-down" data-aos-delay="100">
-          <h2>WELCOME TO MEDILAB</h2>
-          <p>We are team of talented designers making websites with Bootstrap</p>
-        </div><!-- End Welcome -->
-
-        <div class="content row gy-4">
-          <div class="col-lg-4 d-flex align-items-stretch">
-            <div class="why-box" data-aos="zoom-out" data-aos-delay="200">
-              <h3>Why Choose Medilab?</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit
-                Asperiores dolores sed et. Tenetur quia eos. Autem tempore quibusdam vel necessitatibus optio ad corporis.
-              </p>
-              <div class="text-center">
-                <a href="#about" class="more-btn"><span>Learn More</span> <i class="bi bi-chevron-right" /></a>
-              </div>
-            </div>
-          </div><!-- End Why Box -->
-
-          <div class="col-lg-8 d-flex align-items-stretch">
-            <div class="d-flex flex-column justify-content-center">
-              <div class="row gy-4">
-
-                <div class="col-xl-4 d-flex align-items-stretch">
-                  <div class="icon-box" data-aos="zoom-out" data-aos-delay="300">
-                    <i class="bi bi-clipboard-data" />
-                    <h4>Corporis voluptates officia eiusmod</h4>
-                    <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
-                  </div>
-                </div><!-- End Icon Box -->
-
-                <div class="col-xl-4 d-flex align-items-stretch">
-                  <div class="icon-box" data-aos="zoom-out" data-aos-delay="400">
-                    <i class="bi bi-gem" />
-                    <h4>Ullamco laboris ladore pan</h4>
-                    <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
-                  </div>
-                </div><!-- End Icon Box -->
-
-                <div class="col-xl-4 d-flex align-items-stretch">
-                  <div class="icon-box" data-aos="zoom-out" data-aos-delay="500">
-                    <i class="bi bi-inboxes" />
-                    <h4>Labore consequatur incidid dolore</h4>
-                    <p>Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere</p>
-                  </div>
-                </div><!-- End Icon Box -->
-
-              </div>
-            </div>
-          </div>
-        </div><!-- End  Content-->
-
+    <section class="hero">
+      <div class="hero-overlay" />
+      <div class="hero-content">
+        <h1>រស់នៅប្រកបដោយសុខភាពល្អជាមួយជំងឺមិនឆ្លង</h1>
+        <p>ផ្តល់អំណាចដល់អ្នកជំងឺ និងគ្រួសារជាមួយនឹងចំណេះដឹង ធនធាន និងការគាំទ្រសម្រាប់ការគ្រប់គ្រងជំងឺរ៉ាំរ៉ៃ</p>
+        <div class="hero-buttons">
+          <a href="understanding.html" class="btn btn-primary">ស្វែងយល់បន្ថែម</a>
+          <a href="resources.html" class="btn btn-secondary">ស្វែងរកធនធាន</a>
+        </div>
       </div>
+    </section>
 
-    </section><!-- /Hero Section -->
-
-    <!-- About Section -->
-    <section id="about" class="about section">
-
+    <!-- What are NCDs Section -->
+    <section class="section-light">
       <div class="container">
+        <div class="section-header">
+          <h2>តើជំងឺមិនឆ្លងជាអ្វី?</h2>
+          <p>ជំងឺមិនឆ្លង (NCDs) ដែលត្រូវបានគេស្គាល់ថាជាជំងឺរ៉ាំរ៉ៃ គឺជាជំងឺដែលមានរយៈពេលយូរ និងកើតចេញពីការរួមបញ្ចូលគ្នានៃកត្តាហ្សែន សរីរវិទ្យា បរិស្ថាន និងអាកប្បកិរិយា។ មិនដូចជំងឺឆ្លងទេ ជំងឺមិនឆ្លងមិនអាចឆ្លងពីមនុស្សម្នាក់ទៅមនុស្សម្នាក់ទៀតបានទេ។</p>
+        </div>
 
-        <div class="row gy-4 gx-5">
+        <div class="stats-grid">
+          <div class="stat-card">
+            <div class="stat-number">43M</div>
+            <div class="stat-label">ការស្លាប់នៅទូទាំងពិភពលោកក្នុងឆ្នាំ 2021</div>
+            <p>ជំងឺមិនឆ្លងមានចំណែក 75% នៃការស្លាប់ទាំងអស់នៅទូទាំងពិភពលោក</p>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number">18M</div>
+            <div class="stat-label">ការស្លាប់មុនពេលកំណត់</div>
+            <p>មនុស្សដែលមានអាយុក្រោម 70 ឆ្នាំ 82% នៅក្នុងប្រទេសមានចំណូលទាប</p>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number">80%</div>
+            <div class="stat-label">អាចបង្ការបាន</div>
+            <p>ការស្លាប់ដោយជំងឺមិនឆ្លងជាច្រើនអាចបង្ការបានតាមរយៈការផ្លាស់ប្តូររបៀបរស់នៅ</p>
+          </div>
+        </div>
+      </div>
+    </section>
 
-          <div class="col-lg-6 position-relative align-self-start" data-aos="fade-up" data-aos-delay="200">
-            <img src="@/assets/img/about.jpg" class="img-fluid" alt="">
-            <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="glightbox pulsating-play-btn" />
+    <!-- Main NCDs Section -->
+    <section class="section-dark">
+      <div class="container">
+        <div class="section-header">
+          <h2>ប្រភេទជំងឺមិនឆ្លងសំខាន់ៗចំនួនបួន</h2>
+          <p>ក្រុមទាំងបួននេះមានចំណែក 80% នៃការស្លាប់មុនពេលកំណត់ដោយជំងឺមិនឆ្លងនៅទូទាំងពិភពលោក</p>
+        </div>
+
+        <div class="ncd-grid">
+          <div class="ncd-card">
+            <div class="ncd-icon cardiovascular" />
+            <h3>ជំងឺសរសៃឈាមបេះដូង</h3>
+            <p>រួមទាំងជំងឺគាំងបេះដូង និងជំងឺដាច់សរសៃឈាមខួរក្បាល ជំងឺសរសៃឈាមបេះដូងគឺជាមូលហេតុនាំមុខនៃការស្លាប់ដោយជំងឺមិនឆ្លង ដែលមានចំណែក 19 លាននាក់ស្លាប់ជារៀងរាល់ឆ្នាំ។</p>
+            <a href="understanding.html#cardiovascular" class="card-link">ស្វែងយល់បន្ថែម →</a>
           </div>
 
-          <div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="100">
-            <h3>About Us</h3>
-            <p>
-              Dolor iure expedita id fuga asperiores qui sunt consequatur minima. Quidem voluptas deleniti. Sit quia molestiae quia quas qui magnam itaque veritatis dolores. Corrupti totam ut eius incidunt reiciendis veritatis asperiores placeat.
-            </p>
+          <div class="ncd-card">
+            <div class="ncd-icon cancer" />
+            <h3>ជំងឺមហារីក</h3>
+            <p>ជំងឺមហារីកប្រភេទផ្សេងៗប៉ះពាល់ដល់មនុស្សរាប់លាននាក់នៅទូទាំងពិភពលោក ដែលបណ្តាលឱ្យមានមនុស្សប្រហែល 10 លាននាក់ស្លាប់ជារៀងរាល់ឆ្នាំ។ ការរកឃើញមុនពេលគឺមានសារៈសំខាន់ណាស់។</p>
+            <a href="understanding.html#cancer" class="card-link">ស្វែងយល់បន្ថែម →</a>
+          </div>
+
+          <div class="ncd-card">
+            <div class="ncd-icon respiratory" />
+            <h3>ជំងឺផ្លូវដង្ហើមរ៉ាំរ៉ៃ</h3>
+            <p>រួមទាំងជំងឺ COPD និងជំងឺហឺត ជំងឺទាំងនេះប៉ះពាល់ដល់ការដកដង្ហើម និងបណ្តាលឱ្យមានមនុស្សប្រហែល 4 លាននាក់ស្លាប់ជារៀងរាល់ឆ្នាំ។</p>
+            <a href="understanding.html#respiratory" class="card-link">ស្វែងយល់បន្ថែម →</a>
+          </div>
+
+          <div class="ncd-card">
+            <div class="ncd-icon diabetes" />
+            <h3>ជំងឺទឹកនោមផ្អែម</h3>
+            <p>ជំងឺរំលាយអាហារដែលប៉ះពាល់ដល់ការគ្រប់គ្រងជាតិស្ករក្នុងឈាម ជំងឺទឹកនោមផ្អែមបណ្តាលឱ្យមានមនុស្សលើសពី 2 លាននាក់ស្លាប់ក្នុងមួយឆ្នាំ រួមទាំងផលវិបាកនៃជំងឺតម្រងនោម។</p>
+            <a href="understanding.html#diabetes" class="card-link">ស្វែងយល់បន្ថែម →</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Risk Factors Section -->
+    <section class="section-light">
+      <div class="container">
+        <div class="section-header">
+          <h2>ការយល់ដឹងអំពីកត្តាហានិភ័យ</h2>
+          <p>ជំងឺមិនឆ្លងជាច្រើនមានកត្តាហានិភ័យរួមគ្នា ដែលអាចកែប្រែបានតាមរយៈការផ្លាស់ប្តូររបៀបរស់នៅ</p>
+        </div>
+
+        <div class="risk-factors">
+          <div class="risk-category">
+            <h3>កត្តាហានិភ័យអាកប្បកិរិយា</h3>
             <ul>
-              <li>
-                <i class="fa-solid fa-vial-circle-check" />
-                <div>
-                  <h5>Ullamco laboris nisi ut aliquip consequat</h5>
-                  <p>Magni facilis facilis repellendus cum excepturi quaerat praesentium libre trade</p>
-                </div>
-              </li>
-              <li>
-                <i class="fa-solid fa-pump-medical" />
-                <div>
-                  <h5>Magnam soluta odio exercitationem reprehenderi</h5>
-                  <p>Quo totam dolorum at pariatur aut distinctio dolorum laudantium illo direna pasata redi</p>
-                </div>
-              </li>
-              <li>
-                <i class="fa-solid fa-heart-circle-xmark" />
-                <div>
-                  <h5>Voluptatem et qui exercitationem</h5>
-                  <p>Et velit et eos maiores est tempora et quos dolorem autem tempora incidunt maxime veniam</p>
-                </div>
-              </li>
+              <li><strong>ការប្រើប្រាស់ថ្នាំជក់:</strong> រួមទាំងការប៉ះពាល់ទៅនឹងផ្សែងបារីពីអ្នកដទៃ</li>
+              <li><strong>របបអាហារមិនល្អ:</strong> អំបិលច្រើន ស្ករច្រើន និងខ្លាញ់ច្រើន</li>
+              <li><strong>ការប្រើប្រាស់គ្រឿងស្រវឹងដែលបង្កគ្រោះថ្នាក់:</strong> ការទទួលទានច្រើនពេក ឬទៀងទាត់</li>
+              <li><strong>ការខ្វះសកម្មភាពរាងកាយ:</strong> របៀបរស់នៅអង្គុយច្រើន</li>
             </ul>
           </div>
 
+          <div class="risk-category">
+            <h3>កត្តាហានិភ័យរំលាយអាហារ</h3>
+            <ul>
+              <li><strong>សម្ពាធឈាមខ្ពស់:</strong> កត្តាហានិភ័យរំលាយអាហារនាំមុខ</li>
+              <li><strong>ទម្ងន់លើសទម្ងន់/ធាត់:</strong> ទម្ងន់រាងកាយលើស</li>
+              <li><strong>ជាតិស្ករក្នុងឈាមខ្ពស់:</strong> រួមទាំងជំងឺទឹកនោមផ្អែម</li>
+              <li><strong>ជាតិខ្លាញ់ក្នុងឈាមមិនប្រក្រតី:</strong> កូឡេស្តេរ៉ុលខ្ពស់</li>
+            </ul>
+          </div>
+
+          <div class="risk-category">
+            <h3>កត្តាហានិភ័យបរិស្ថាន</h3>
+            <ul>
+              <li><strong>ការបំពុលខ្យល់:</strong> ទាំងក្នុង និងក្រៅផ្ទះ</li>
+              <li><strong>គ្រោះថ្នាក់ពីការងារ:</strong> ការប៉ះពាល់នៅកន្លែងធ្វើការ</li>
+              <li><strong>ការប៉ះពាល់សារធាតុគីមី:</strong> សារធាតុពុលបរិស្ថាន</li>
+            </ul>
+          </div>
         </div>
-
       </div>
+    </section>
 
-    </section><!-- /About Section -->
-  </main>
+    <!-- Prevention & Management Section -->
+    <section class="section-cta">
+      <div class="container">
+        <div class="cta-content">
+          <h2>គ្រប់គ្រងសុខភាពរបស់អ្នក</h2>
+          <p>ការបង្ការ និងការរកឃើញមុនពេលគឺជាគន្លឹះសម្រាប់ការគ្រប់គ្រងជំងឺមិនឆ្លងប្រកបដោយប្រសិទ្ធភាព។ ស្វែងយល់អំពីការផ្លាស់ប្តូររបៀបរស់នៅ ជម្រើសពិនិត្យសុខភាព និងវិធីសាស្រ្តព្យាបាលដែលអាចជួយអ្នករស់នៅប្រកបដោយសុខភាពល្អ។</p>
+          <div class="cta-buttons">
+            <a href="prevention.html" class="btn btn-primary">យុទ្ធសាស្រ្តបង្ការ</a>
+            <a href="management.html" class="btn btn-outline">គន្លឹះគ្រប់គ្រង</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </div>
 </template>
 
 <script>
@@ -121,11 +146,6 @@ export default {
 </script>
 
 <style scoped>
-section {
-  background: white;
-  border-radius: 16px;
-  max-width: 800px;
-  margin: auto;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-}
+  @import "~@/assets/css/styles.css";
+
 </style>
