@@ -3,10 +3,9 @@
     <!-- Page Header -->
     <section class="page-header">
       <div class="container">
-        <h1>Managing Non-Communicable Diseases</h1>
+        <h1>ការគ្រប់គ្រងជំងឺមិនឆ្លង </h1>
         <p>
-          Living well with chronic conditions through effective management
-          strategies
+          រស់នៅយ៉ាងល្អជាមួយជំងឺរ៉ាំរ៉ៃតាមរយៈយុទ្ធសាស្ត្រគ្រប់គ្រងដ៏មានប្រសិទ្ធភាព
         </p>
       </div>
     </section>
@@ -14,402 +13,275 @@
     <!-- Content Section -->
     <section class="content-section">
       <div class="container">
-        <h2>Living Well with NCDs</h2>
+        <h2>ការរស់នៅយ៉ាងល្អជាមួយ NCDs (Living Well with NCDs)</h2>
         <p>
-          While non-communicable diseases are chronic conditions that cannot be
-          cured in most cases, they can be effectively managed. With proper
-          treatment, lifestyle modifications, and support, people with NCDs can
-          lead fulfilling, active lives. The key to successful management lies
-          in understanding your condition, working closely with healthcare
-          providers, and taking an active role in your own care.
+          ទោះបីជាជំងឺមិនឆ្លងជាជំងឺរ៉ាំរ៉ៃដែលមិនអាចជាសះស្បើយបានទេក៏ដោយ
+          ប៉ុន្តែវាអាចត្រូវបានគ្រប់គ្រងយ៉ាងមានប្រសិទ្ធភាព។
+          ដោយមានការព្យាបាលត្រឹមត្រូវ ការផ្លាស់ប្តូររបៀបរស់នៅ និងការគាំទ្រ
+          អ្នកជំងឺអាចរស់នៅយ៉ាងសកម្ម និងមានសុភមង្គល។
+          គន្លឹះនៃការគ្រប់គ្រងជោគជ័យគឺការយល់ដឹងអំពីជំងឺរបស់អ្នក
+          ការសហការជិតស្និទ្ធជាមួយអ្នកផ្តល់សេវាសុខាភិបាល
+          និងការចូលរួមសកម្មក្នុងការថែទាំខ្លួនឯង។
         </p>
 
         <div class="success-box">
-          <strong>Empowerment Through Knowledge:</strong> Being diagnosed with
-          an NCD is not the end—it's the beginning of a journey toward better
-          health management. Many people with NCDs live long, productive lives
-          by taking control of their health and following evidence-based
-          management strategies.
+          <strong>អំណាចតាមរយៈចំណេះដឹង (Empowerment Through Knowledge):</strong>
+          ការត្រូវបានវិនិច្ឆ័យថាមានជំងឺមិនឆ្លងមិនមែនជាចុងផ្លូវទេ—វាជាការចាប់ផ្តើមនៃដំណើរទៅរកការគ្រប់គ្រងសុខភាពបានល្អប្រសើរ។
+          មនុស្សជាច្រើនដែលមាន NCDs រស់នៅបានយូរ និងមានផលិតភាព
+          ដោយការទទួលខុសត្រូវលើសុខភាពរបស់ខ្លួន
+          និងអនុវត្តយុទ្ធសាស្ត្រគ្រប់គ្រងដែលមានមូលដ្ឋានលើភស្តុតាង។
         </div>
 
-        <h2>Medical Treatment and Care</h2>
+        <h2>ការព្យាបាលវេជ្ជសាស្ត្រ និងការថែទាំ (Medical Treatment and Care)</h2>
         <p>
-          Effective medical management is the foundation of NCD care. This
-          involves working with healthcare professionals to develop and follow a
-          comprehensive treatment plan tailored to your specific condition and
-          needs.
+          ការគ្រប់គ្រងវេជ្ជសាស្ត្រដែលមានប្រសិទ្ធភាពគឺជាគ្រឹះនៃការថែទាំជំងឺមិនឆ្លង។
+          វាមានន័យថាត្រូវសហការជាមួយអ្នកជំនាញសុខាភិបាល ដើម្បីបង្កើត
+          និងអនុវត្តផែនការព្យាបាលសមស្របសម្រាប់ស្ថានភាពនិងតម្រូវការរបស់អ្នក។
         </p>
 
-        <h3>Key Components of Medical Care:</h3>
+        <h3>
+          សមាសភាគសំខាន់នៃការថែទាំវេជ្ជសាស្ត្រ (Key Components of Medical Care):
+        </h3>
         <ul>
           <li>
-            <strong>Regular medical check-ups:</strong> Schedule and attend all
-            appointments with your healthcare team to monitor your condition and
-            adjust treatment as needed.
+            <strong>ពិនិត្យសុខភាពជាប្រចាំ:</strong>
+            ត្រូវតែងតែចូលរួមពិនិត្យជាមួយក្រុមវេជ្ជសាស្ត្ររបស់អ្នក
+            ដើម្បីតាមដានស្ថានភាព និងកែសម្រួលការព្យាបាលតាមតម្រូវការ។
           </li>
           <li>
-            <strong>Medication adherence:</strong> Take prescribed medications
-            exactly as directed, at the right time and dosage. Never stop or
-            change medications without consulting your doctor.
+            <strong>ការទទួលថ្នាំតាមការណែនាំ:</strong> ត្រូវផឹកថ្នាំតាមពេលវេលា
+            និងបរិមាណដែលគ្រូពេទ្យបានកំណត់។ កុំផ្អាក
+            ឬផ្លាស់ប្តូរថ្នាំដោយមិនពិភាក្សាជាមួយគ្រូពេទ្យ។
           </li>
           <li>
-            <strong>Understanding your medications:</strong> Learn about each
-            medication's purpose, potential side effects, and interactions with
-            other drugs or foods.
+            <strong>ការយល់ដឹងអំពីថ្នាំរបស់អ្នក:</strong> រៀនអំពីគោលបំណង
+            ផលប៉ះពាល់ និងអន្តរកម្មនៃថ្នាំនីមួយៗ។
           </li>
           <li>
-            <strong>Specialist care:</strong> Work with specialists such as
-            cardiologists, endocrinologists, oncologists, or pulmonologists as
-            recommended.
+            <strong>ការថែទាំដោយអ្នកជំនាញ:</strong>
+            យកចិត្តទុកដាក់ពិគ្រោះជាមួយអ្នកជំនាញដូចជា cardiologist,
+            endocrinologist, oncologist ឬ pulmonologist តាមការណែនាំ។
           </li>
           <li>
-            <strong>Diagnostic tests:</strong> Complete recommended laboratory
-            tests, imaging studies, and other diagnostic procedures to monitor
-            disease progression and treatment effectiveness.
+            <strong>ការតេស្តវិនិច្ឆ័យ:</strong> ធ្វើតេស្តបន្ទាប់បន្សំ
+            ឬសិក្សារូបភាពតាមដែលគ្រូពេទ្យណែនាំ ដើម្បីតាមដានជំងឺ។
           </li>
         </ul>
 
         <div class="info-box">
-          <strong>Medication Management Tips:</strong> Use pill organizers, set
-          phone reminders, keep a medication list with you at all times, and
-          maintain open communication with your pharmacist about any concerns or
-          questions.
+          <strong>គន្លឹះក្នុងការគ្រប់គ្រងថ្នាំ (Medication Management Tips):</strong>
+          ប្រើប្រអប់ថ្នាំរៀងរាល់ថ្ងៃ ដាក់ការរំលឹកតាមទូរស័ព្ទ
+          រក្សាតារាងថ្នាំជាមួយខ្លួន ហើយសុំដំបូន្មានពីឱសថការីប្រសិនបើមានសំណួរ។
         </div>
 
-        <h2>Self-Management Strategies</h2>
+        <h2>យុទ្ធសាស្ត្រគ្រប់គ្រងដោយខ្លួនឯង (Self-Management Strategies)</h2>
         <p>
-          Self-management involves the daily tasks and decisions you make to
-          control your condition and maintain your health. Developing strong
-          self-management skills empowers you to take charge of your health and
-          improve outcomes.
+          ការគ្រប់គ្រងដោយខ្លួនឯងមានន័យថា
+          អ្នកធ្វើសកម្មភាពប្រចាំថ្ងៃដើម្បីថែរក្សាសុខភាព និងគ្រប់គ្រងជំងឺ។
+          ជំនាញទាំងនេះអាចជួយឱ្យអ្នកគ្រប់គ្រងសុខភាពបានល្អជាងមុន។
         </p>
 
-        <h3>Essential Self-Management Skills:</h3>
+        <h3>
+          ជំនាញសំខាន់ៗសម្រាប់ការគ្រប់គ្រងដោយខ្លួនឯង (Essential Self-Management
+          Skills):
+        </h3>
         <ul>
           <li>
-            <strong>Symptom monitoring:</strong> Learn to recognize and track
-            your symptoms, knowing when they indicate a need for medical
-            attention.
+            <strong>តាមដានរោគសញ្ញា:</strong> រៀនស្គាល់ និងកត់ត្រារោគសញ្ញា
+            ដើម្បីដឹងពេលណាត្រូវស្វែងរកជំនួយវេជ្ជសាស្ត្រ។
           </li>
           <li>
-            <strong>Blood pressure monitoring:</strong> If you have hypertension
-            or cardiovascular disease, regularly check and record your blood
-            pressure at home.
+            <strong>វាស់សម្ពាធឈាម:</strong> ប្រសិនបើមានជំងឺសម្ពាធឈាម ឬជំងឺបេះដូង
+            ត្រូវវាស់សម្ពាធឈាមជាប្រចាំ។
           </li>
           <li>
-            <strong>Blood glucose monitoring:</strong> For diabetes management,
-            regularly test blood sugar levels as recommended by your healthcare
-            team.
+            <strong>វាស់ជាតិស្ករក្នុងឈាម:</strong> សម្រាប់ជំងឺទឹកនោមផ្អែម
+            ត្រូវតេស្តស្ករតាមការណែនាំ។
           </li>
           <li>
-            <strong>Weight management:</strong> Monitor your weight regularly
-            and work toward maintaining a healthy weight range.
+            <strong>គ្រប់គ្រងទម្ងន់:</strong> តាមដានទម្ងន់
+            និងរក្សាឱ្យនៅក្នុងជួរដែលមានសុខភាពល្អ។
           </li>
           <li>
-            <strong>Keeping health records:</strong> Maintain organized records
-            of test results, medications, symptoms, and medical visits.
+            <strong>រក្សាកំណត់ត្រាសុខភាព:</strong> រក្សាបទពិសោធន៍ តេស្ត
+            និងការព្យាបាលទាំងអស់ឱ្យមានរបៀបរៀបចំល្អ។
           </li>
           <li>
-            <strong>Problem-solving:</strong> Develop skills to identify and
-            address challenges in managing your condition.
+            <strong>ដោះស្រាយបញ្ហា:</strong>
+            អភិវឌ្ឍជំនាញក្នុងការដោះស្រាយបញ្ហាដែលជួបប្រទះក្នុងការគ្រប់គ្រងជំងឺ។
           </li>
         </ul>
 
-        <h2>Lifestyle Modifications</h2>
+        <h2>ការផ្លាស់ប្តូររបៀបរស់នៅ (Lifestyle Modifications)</h2>
         <p>
-          Lifestyle changes are crucial for managing NCDs and preventing
-          complications. Many of the same strategies used for prevention are
-          also essential for management.
+          ការផ្លាស់ប្តូររបៀបរស់នៅគឺសំខាន់សម្រាប់ការគ្រប់គ្រង NCDs
+          និងការការពារផលវិបាក។ វាជាផ្នែកមួយនៃការគ្រប់គ្រងដើម្បីរក្សាសុខភាពល្អ។
         </p>
 
-        <h3>Dietary Management:</h3>
+        <h3>ការគ្រប់គ្រងអាហារ (Dietary Management):</h3>
         <ul>
           <li>
-            <strong>Follow a disease-specific diet:</strong> Work with a
-            dietitian to develop a meal plan appropriate for your condition
-            (e.g., low-sodium for heart disease, carbohydrate counting for
-            diabetes).
+            <strong>អាហារតាមជំងឺ:</strong>
+            ពិគ្រោះជាមួយអ្នកអាហារូបត្ថម្ភដើម្បីបង្កើតផែនការអាហារសមស្រប។
           </li>
+          <li><strong>គ្រប់គ្រងបរិមាណអាហារ:</strong> រៀនពីទំហំបរិមាណសមរម្យ។</li>
           <li>
-            <strong>Portion control:</strong> Learn appropriate serving sizes to
-            maintain a healthy weight.
+            <strong>រៀបចំអាហារជាមុន:</strong> ដើម្បីជៀសវាងជម្រើសមិនមានប្រយោជន៍។
           </li>
+          <li><strong>អានស្លាកអាហារ:</strong> ដើម្បីយល់ពីសារធាតុចិញ្ចឹម។</li>
           <li>
-            <strong>Meal planning:</strong> Plan meals in advance to ensure
-            nutritious choices and avoid unhealthy options.
-          </li>
-          <li>
-            <strong>Read food labels:</strong> Understand nutrition labels to
-            make informed food choices.
-          </li>
-          <li>
-            <strong>Limit processed foods:</strong> Focus on whole, unprocessed
-            foods whenever possible.
+            <strong>កាត់បន្ថយអាហារកែច្នៃ:</strong> ប្រើអាហារស្រស់ និងធម្មជាតិ។
           </li>
         </ul>
 
-        <h3>Physical Activity:</h3>
+        <h3>សកម្មភាពរាងកាយ (Physical Activity):</h3>
         <ul>
           <li>
-            <strong>Consult your doctor:</strong> Before starting any exercise
-            program, discuss appropriate activities and intensity levels with
-            your healthcare provider.
+            <strong>ពិគ្រោះជាមួយគ្រូពេទ្យ:</strong> មុនចាប់ផ្តើមហាត់ប្រាណថ្មី។
           </li>
           <li>
-            <strong>Start gradually:</strong> Begin with low-intensity
-            activities and slowly increase duration and intensity.
+            <strong>ចាប់ផ្តើមបន្តិចម្តងៗ:</strong> បន្ថែមភាពធ្ងន់បន្ដិចម្តងៗ។
           </li>
           <li>
-            <strong>Choose enjoyable activities:</strong> Select exercises you
-            enjoy to increase adherence.
+            <strong>ជ្រើសសកម្មភាពដែលអ្នកចូលចិត្ត:</strong>
+            ដើម្បីរក្សាអនុវត្តបានយូរ។
           </li>
           <li>
-            <strong>Set realistic goals:</strong> Establish achievable exercise
-            goals and celebrate progress.
+            <strong>កំណត់គោលដៅដែលអាចសម្រេចបាន:</strong> ហើយអបអរសាទរវិជ្ជមាន។
           </li>
           <li>
-            <strong>Listen to your body:</strong> Pay attention to warning signs
-            and stop if you experience chest pain, severe shortness of breath,
-            or dizziness.
+            <strong>ស្តាប់រាងកាយរបស់អ្នក:</strong> បញ្ឈប់ប្រសិនបើមានឈឺទ្រូង
+            ឬវិលមុខ។
           </li>
         </ul>
 
         <div class="warning-box">
-          <strong>Important:</strong> Always consult with your healthcare
-          provider before making significant changes to your diet or exercise
-          routine, especially if you have existing health conditions or are
-          taking medications.
+          <strong>សំខាន់ (Important):</strong>
+          តែងតែពិគ្រោះជាមួយគ្រូពេទ្យមុនធ្វើការផ្លាស់ប្តូរអាហារ ឬការហាត់ប្រាណ។
         </div>
 
-        <h2>Emotional and Mental Health</h2>
+        <h2>សុខភាពផ្លូវចិត្ត និងអារម្មណ៍ (Emotional and Mental Health)</h2>
         <p>
-          Living with a chronic disease can be emotionally challenging.
-          Addressing mental health is an essential component of comprehensive
-          NCD management. Depression, anxiety, and stress are common among
-          people with NCDs and can negatively impact disease management and
-          outcomes.
+          ការរស់ជាមួយជំងឺរ៉ាំរ៉ៃអាចបង្កអារម្មណ៍ស្ត្រេស ឬធ្លាក់ទឹកចិត្ត។
+          ការថែទាំផ្លូវចិត្តគឺសំខាន់ក្នុងការគ្រប់គ្រងជំងឺមិនឆ្លង។
         </p>
 
-        <h3>Supporting Mental Well-being:</h3>
+        <h3>ការគាំទ្រផ្លូវចិត្ត (Supporting Mental Well-being):</h3>
         <ul>
+          <li><strong>ទទួលស្គាល់អារម្មណ៍របស់អ្នក:</strong> វាជារឿងធម្មតា។</li>
           <li>
-            <strong>Acknowledge your feelings:</strong> It's normal to
-            experience a range of emotions after diagnosis or during disease
-            management.
+            <strong>ស្វែងរកជំនួយពីអ្នកជំនាញផ្លូវចិត្ត:</strong>
+            ប្រសិនបើមានការថប់បារម្ភ ឬធ្លាក់ទឹកចិត្ត។
           </li>
           <li>
-            <strong>Seek professional help:</strong> Don't hesitate to consult
-            mental health professionals if you're struggling with depression,
-            anxiety, or stress.
+            <strong>អនុវត្តការកាត់បន្ថយស្ត្រេស:</strong> ដូចជា mindfulness
+            ឬយូហ្គា។
           </li>
           <li>
-            <strong>Practice stress management:</strong> Use relaxation
-            techniques, mindfulness, meditation, or yoga to manage stress.
+            <strong>រក្សាការទំនាក់ទំនងសង្គម:</strong> ជាមួយមិត្តភក្តិ
+            និងគ្រួសារ។
+          </li>
+          <li><strong>ចូលរួមក្រុមគាំទ្រ:</strong> ដើម្បីចែករំលែកបទពិសោធន៍។</li>
+          <li>
+            <strong>ផ្តោតលើអ្វីដែលអ្នកអាចគ្រប់គ្រងបាន:</strong>
+            មិនលើអ្វីដែលអ្នកមិនអាចផ្លាស់ប្តូរបានទេ។
           </li>
           <li>
-            <strong>Maintain social connections:</strong> Stay connected with
-            family and friends who provide emotional support.
-          </li>
-          <li>
-            <strong>Join support groups:</strong> Connect with others who
-            understand what you're going through.
-          </li>
-          <li>
-            <strong>Focus on what you can control:</strong> Direct your energy
-            toward aspects of your health you can influence.
-          </li>
-          <li>
-            <strong>Celebrate small victories:</strong> Acknowledge and
-            celebrate your successes in managing your condition.
+            <strong>អបអរសាទរជោគជ័យតូចៗ:</strong> ដើម្បីបង្កើនកម្លាំងចិត្ត។
           </li>
         </ul>
 
-        <h2>Building a Support Network</h2>
+        <h2>ការបង្កើតបណ្តាញគាំទ្រ (Building a Support Network)</h2>
         <p>
-          No one should manage an NCD alone. Building a strong support network
-          is crucial for successful disease management and maintaining quality
-          of life.
+          ការមានបណ្តាញគាំទ្រដែលរឹងមាំគឺជាចំណុចសំខាន់សម្រាប់ការគ្រប់គ្រងជំងឺ។
         </p>
 
-        <h3>Your Healthcare Team:</h3>
+        <h3>ក្រុមសុខាភិបាលរបស់អ្នក (Your Healthcare Team):</h3>
         <ul>
+          <li><strong>គ្រូពេទ្យទូទៅ:</strong> សម្របសម្រួលការថែទាំទាំងមូល</li>
+          <li><strong>អ្នកជំនាញ:</strong> ផ្តល់ជំនួយតាមជំងឺ</li>
+          <li><strong>គិលានុបដ្ឋាយិកា:</strong> ផ្តល់ការអប់រំ និងគាំទ្រ</li>
+          <li><strong>ឱសថការី:</strong> ផ្តល់ដំបូន្មានអំពីថ្នាំ</li>
+          <li><strong>អ្នកអាហារូបត្ថម្ភ:</strong> រៀបចំអាហារសមស្រប</li>
+          <li><strong>អ្នកព្យាបាលរាងកាយ:</strong> ជួយរក្សាចលនា</li>
           <li>
-            <strong>Primary care physician:</strong> Coordinates overall care
-            and manages general health needs
-          </li>
-          <li>
-            <strong>Specialists:</strong> Provide expert care for specific
-            conditions
-          </li>
-          <li>
-            <strong>Nurses and nurse practitioners:</strong> Offer education,
-            support, and care coordination
-          </li>
-          <li>
-            <strong>Pharmacists:</strong> Provide medication counseling and
-            monitor for drug interactions
-          </li>
-          <li>
-            <strong>Dietitians:</strong> Develop personalized nutrition plans
-          </li>
-          <li>
-            <strong>Physical therapists:</strong> Help maintain mobility and
-            function
-          </li>
-          <li>
-            <strong>Mental health professionals:</strong> Support emotional
-            well-being
+            <strong>អ្នកផ្តល់ជំនួយផ្លូវចិត្ត:</strong> គាំទ្រផ្លូវអារម្មណ៍
           </li>
         </ul>
 
-        <h3>Personal Support:</h3>
+        <h3>ការគាំទ្រផ្ទាល់ខ្លួន (Personal Support):</h3>
         <ul>
           <li>
-            <strong>Family and friends:</strong> Provide emotional support and
-            practical assistance
+            <strong>គ្រួសារ និងមិត្តភក្តិ:</strong> ផ្តល់ការគាំទ្រផ្លូវចិត្ត
+            និងជំនួយប្រចាំថ្ងៃ
           </li>
+          <li><strong>ក្រុមគាំទ្រ:</strong> ចែករំលែកបទពិសោធន៍</li>
+          <li><strong>ធនធានសហគមន៍:</strong> ប្រើប្រាស់កម្មវិធីក្នុងតំបន់</li>
           <li>
-            <strong>Support groups:</strong> Offer shared experiences and coping
-            strategies
-          </li>
-          <li>
-            <strong>Community resources:</strong> Access local programs and
-            services
-          </li>
-          <li>
-            <strong>Online communities:</strong> Connect with others facing
-            similar challenges
+            <strong>សហគមន៍អនឡាញ:</strong>
+            តភ្ជាប់ជាមួយអ្នកដទៃដែលមានបទពិសោធន៍ដូចគ្នា
           </li>
         </ul>
 
-        <h2>Managing Complications</h2>
+        <h2>ការគ្រប់គ្រងផលវិបាក (Managing Complications)</h2>
         <p>
-          Many NCDs can lead to complications if not properly managed.
-          Understanding potential complications and how to prevent them is
-          essential for long-term health.
+          ជំងឺមិនឆ្លងអាចបង្កផលវិបាកប្រសិនបើមិនត្រូវបានគ្រប់គ្រង។
+          ការយល់ដឹងអំពីផលវិបាក និងវិធានការការពារគឺសំខាន់។
         </p>
 
-        <h3>Preventing Complications:</h3>
+        <h3>ការការពារផលវិបាក (Preventing Complications):</h3>
         <ul>
           <li>
-            <strong>Maintain good control:</strong> Keep blood pressure, blood
-            sugar, cholesterol, and other health markers within target ranges.
+            <strong>រក្សាអោយស្ថិតក្នុងតម្លៃគោលដៅ:</strong> ដូចជា សម្ពាធឈាម ស្ករ
+            និងជាតិខ្លាញ់។
           </li>
           <li>
-            <strong>Attend all appointments:</strong> Regular monitoring helps
-            detect problems early.
+            <strong>ចូលរួមជួបវេជ្ជបណ្ឌិតជាប្រចាំ:</strong>
+            ដើម្បីរកឃើញបញ្ហាមុនពេលវាខ្លាំង។
           </li>
           <li>
-            <strong>Report new symptoms:</strong> Inform your healthcare team
-            immediately about any new or worsening symptoms.
+            <strong>រាយការណ៍រោគសញ្ញាថ្មី:</strong> ទៅក្រុមសុខាភិបាលភ្លាមៗ។
           </li>
-          <li>
-            <strong>Follow treatment plans:</strong> Adhere to all aspects of
-            your treatment regimen.
-          </li>
-          <li>
-            <strong>Get vaccinations:</strong> Stay up-to-date with recommended
-            vaccines to prevent infections that could complicate your condition.
-          </li>
+          <li><strong>អនុវត្តផែនការព្យាបាល:</strong> តាមដែលបានណែនាំ។</li>
+          <li><strong>ចាក់វ៉ាក់សាំង:</strong> ដើម្បីការពារជំងឺបន្ថែម។</li>
         </ul>
 
         <div class="warning-box">
-          <strong>Warning Signs:</strong> Seek immediate medical attention for
-          severe chest pain, difficulty breathing, sudden weakness or numbness,
-          severe headache, loss of consciousness, or any other symptoms that
-          concern you. When in doubt, call emergency services.
+          <strong>សញ្ញាផ្តល់ការព្រមាន (Warning Signs):</strong>
+          ប្រសិនបើមានឈឺទ្រូងខ្លាំង ដកដង្ហើមលំបាក ឬវិលមុខខ្លាំង
+          ត្រូវស្វែងរកជំនួយវេជ្ជសាស្ត្រភ្លាមៗ។
         </div>
 
-        <h2>Palliative Care</h2>
+        <h2>ការថែទាំបំប៉ន (Palliative Care)</h2>
         <p>
-          Palliative care is specialized medical care focused on providing
-          relief from symptoms and stress of serious illness. It is appropriate
-          at any age and at any stage of a serious illness, and can be provided
-          alongside curative treatment. The goal is to improve quality of life
-          for both patients and families.
+          ការថែទាំបំប៉នគឺជាការថែទាំវេជ្ជសាស្ត្រដែលផ្តោតលើការកាត់បន្ថយរោគសញ្ញា
+          និងសម្ពាធពីជំងឺធ្ងន់ធ្ងរ។ វាអាចផ្តល់ជាមួយនឹងការព្យាបាលដើម្បីជាសះស្បើយ។
         </p>
 
-        <h3>What Palliative Care Offers:</h3>
+        <h3>អ្វីដែលការថែទាំបំប៉នផ្តល់បាន (What Palliative Care Provides):</h3>
         <ul>
-          <li>Expert symptom and pain management</li>
-          <li>Help with treatment decisions</li>
-          <li>Emotional and spiritual support</li>
-          <li>Coordination of care across providers</li>
-          <li>Support for family caregivers</li>
-          <li>Assistance with advance care planning</li>
-        </ul>
-
-        <div class="info-box">
-          <strong>Important to Know:</strong> Palliative care is not the same as
-          hospice care or end-of-life care. It can be beneficial at any stage of
-          illness and can be provided along with treatments aimed at curing your
-          disease.
-        </div>
-
-        <h2>Planning for the Future</h2>
-        <p>
-          Taking steps to plan for the future can provide peace of mind and
-          ensure your wishes are respected.
-        </p>
-
-        <h3>Important Planning Steps:</h3>
-        <ul>
+          <li><strong>ការគ្រប់គ្រងរោគសញ្ញា:</strong> ដូចជា ឈឺ ឬអស់កម្លាំង</li>
           <li>
-            <strong>Advance directives:</strong> Document your healthcare
-            preferences in case you become unable to communicate them.
+            <strong>ការគាំទ្រផ្លូវចិត្ត និងអារម្មណ៍:</strong> សម្រាប់អ្នកជំងឺ
+            និងគ្រួសារ
           </li>
           <li>
-            <strong>Healthcare proxy:</strong> Designate someone to make medical
-            decisions on your behalf if needed.
+            <strong>ការធ្វើសេចក្តីសម្រេចបញ្ចប់ជីវិត:</strong>
+            ជួយគ្រួសារក្នុងការគាំទ្រផ្លូវចិត្ត
           </li>
           <li>
-            <strong>Discuss goals of care:</strong> Have open conversations with
-            your healthcare team and loved ones about your treatment goals and
-            preferences.
-          </li>
-          <li>
-            <strong>Financial planning:</strong> Understand your insurance
-            coverage and plan for healthcare costs.
-          </li>
-          <li>
-            <strong>Legal documents:</strong> Ensure important legal documents
-            are in order.
+            <strong>ការថែទាំសហការពហុវិស័យ:</strong> មានគ្រូពេទ្យ
+            និងអ្នកជំនាញជាច្រើនចូលរួម
           </li>
         </ul>
 
-        <h2>Staying Motivated</h2>
+        <h2>សេចក្តីសន្និដ្ឋាន (Conclusion)</h2>
         <p>
-          Managing a chronic disease is a marathon, not a sprint. Staying
-          motivated over the long term can be challenging, but it's essential
-          for successful management.
+          ការរស់នៅជាមួយជំងឺមិនឆ្លងត្រូវការចំណេះដឹង ការគាំទ្រ
+          និងការប្តេជ្ញាចិត្ត។ ដោយគ្រប់គ្រងវេជ្ជសាស្ត្រ ផ្លាស់ប្តូររបៀបរស់នៅ
+          ថែរក្សាសុខភាពផ្លូវចិត្ត និងអភិវឌ្ឍបណ្តាញគាំទ្រ
+          អ្នកអាចរក្សាគុណភាពជីវិតល្អ និងគ្រប់គ្រងជំងឺបានយ៉ាងមានប្រសិទ្ធភាព។
         </p>
-
-        <h3>Tips for Maintaining Motivation:</h3>
-        <ul>
-          <li>Set short-term, achievable goals</li>
-          <li>Track your progress and celebrate successes</li>
-          <li>Focus on how good management makes you feel</li>
-          <li>
-            Remember your reasons for staying healthy (family, activities you
-            enjoy, life goals)
-          </li>
-          <li>Be kind to yourself when you have setbacks</li>
-          <li>Stay informed about new treatments and management strategies</li>
-          <li>Connect with others for inspiration and support</li>
-        </ul>
-
-        <div class="success-box">
-          <strong>You Are Not Alone:</strong> Millions of people worldwide
-          successfully manage NCDs and live fulfilling lives. With the right
-          knowledge, support, and commitment, you can too. Remember that every
-          positive step you take contributes to better health and quality of
-          life.
-        </div>
-
-        <div style="text-align: center; margin-top: 3rem">
-          <a href="resources.html" class="btn btn-primary">Find Resources</a>
-          <a href="understanding.html" class="btn btn-secondary">Learn More About NCDs</a>
-        </div>
       </div>
     </section>
   </div>
