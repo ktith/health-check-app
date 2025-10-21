@@ -8,8 +8,8 @@
         </div>
         <ul class="nav-menu">
           <li><a href="index.html" class="active">ទំព័រដើម</a></li>
-          <li><a href="understanding.html">ការយល់ដឹងអំពីជំងឺមិនឆ្លង</a></li>
-          <li><a href="prevention.html">ការបង្ការ</a></li>
+          <li><a href="/#understanding">ការយល់ដឹងអំពីជំងឺមិនឆ្លង</a></li>
+          <li><a href="/#prevention">ការបង្ការ</a></li>
           <li><a href="management.html">ការគ្រប់គ្រង</a></li>
           <li><a href="resources.html">ធនធាន</a></li>
         </ul>

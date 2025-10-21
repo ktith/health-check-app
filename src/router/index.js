@@ -80,6 +80,12 @@ export const constantRoutes = [
         component: () => import('@/views/homepage/index'),
         name: 'Homepage',
         meta: { title: 'Homepage', icon: 'dashboard', affix: true }
+      },
+      {
+        path: '/understanding',
+        component: () => import('@/views/homepage/understanding'),
+        name: 'UnderstandingPage',
+        meta: { title: 'UnderstandingPage', icon: 'dashboard', affix: true }
       }
     ]
   },

@@ -141,7 +141,7 @@
 
 <script>
 export default {
-  name: 'HealthHome'
+  name: 'Homepage'
 }
 </script>
 
