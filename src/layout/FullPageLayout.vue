@@ -77,9 +77,9 @@
           <div class="content row gy-4">
             <div class="col-lg-4 d-flex align-items-stretch">
               <div class="why-box" data-aos="zoom-out" data-aos-delay="200">
-                <h3>Why Choose Medilab?</h3>
+                <h3>Why Choose Hello?</h3>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Lorem ipsum dolor sit ameteifioaifouw0afehqhfoiahfooa, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </p>
                 <div class="text-center">
                   <a href="#about" class="more-btn">
