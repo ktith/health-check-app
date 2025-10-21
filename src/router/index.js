@@ -86,6 +86,12 @@ export const constantRoutes = [
         component: () => import('@/views/homepage/understanding'),
         name: 'UnderstandingPage',
         meta: { title: 'UnderstandingPage', icon: 'dashboard', affix: true }
+      },
+      {
+        path: '/prevention',
+        component: () => import('@/views/homepage/prevention'),
+        name: 'PreventionPage',
+        meta: { title: 'PreventionPage', icon: 'dashboard', affix: true }
       }
     ]
   },
