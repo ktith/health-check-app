@@ -9,13 +9,13 @@
 
       <el-table-column width="120px" align="center" label="Patient name">
         <template slot-scope="{row}">
-          <span>{{ row.author }}</span>
+          <span>{{ row.name }}</span>
         </template>
       </el-table-column>
-
+      <!--
       <el-table-column width="180px" align="center" label="Last Visit">
         <template slot-scope="{row}">
-          <span>{{ row.timestamp | parseTime('{y}-{m}-{d} {h}:{i}') }}</span>
+          <span>{{ row.date_in }}</span>
         </template>
       </el-table-column>
 
@@ -72,14 +72,14 @@
             Edit
           </el-button>
         </template>
-      </el-table-column>
+      </el-table-column> -->
     </el-table>
   </div>
 </template>
 
 <script>
 import { fetchList } from '@/api/article'
-
+import { getDocsByCollection } from '@/modules/firestore.js'
 export default {
   name: 'InlineEditTable',
   filters: {
@@ -103,14 +103,26 @@ export default {
     }
   },
   created() {
-    this.getList()
+    this.fetchData()
   },
   methods: {
+    async fetchData() {
+      const data = await getDocsByCollection('patients')
+      this.list = data.map(v => {
+        console.log(v)
+        this.$set(v, 'edit', false) // https://vuejs.org/v2/guide/reactivity.html
+        v.originalTitle = v.title //  will be used when user click the cancel botton
+        return v
+      })
+      this.listLoading = false
+    },
     async getList() {
       this.listLoading = true
       const { data } = await fetchList(this.listQuery)
       const items = data.items
+      console.log(items)
       this.list = items.map(v => {
+        console.log(v)
         this.$set(v, 'edit', false) // https://vuejs.org/v2/guide/reactivity.html
         v.originalTitle = v.title //  will be used when user click the cancel botton
         return v
