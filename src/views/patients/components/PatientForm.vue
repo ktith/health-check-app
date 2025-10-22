@@ -164,8 +164,6 @@
 <script>
 
 import Sticky from '@/components/Sticky'
-import { fetchArticle } from '@/api/article'
-import { searchUser } from '@/api/remote-search'
 
 // import firebase firestore
 import db from '@/firebase/init.js'
@@ -275,31 +273,9 @@ export default {
     this.tempRoute = Object.assign({}, this.$route)
   },
   methods: {
-    fetchData(id) {
-      fetchArticle(id).then(response => {
-        this.postForm = response.data
-
-        // just for test
-        this.postForm.title += `   Article Id:${this.postForm.id}`
-        this.postForm.content_short += `   Article Id:${this.postForm.id}`
-
-        // set tagsview title
-        this.setTagsViewTitle()
-
-        // set page title
-        this.setPageTitle()
-      }).catch(err => {
-        console.log(err)
-      })
-    },
-    setTagsViewTitle() {
-      const title = 'Edit Article'
-      const route = Object.assign({}, this.tempRoute, { title: `${title}-${this.postForm.id}` })
-      this.$store.dispatch('tagsView/updateVisitedView', route)
-    },
-    setPageTitle() {
-      const title = 'Edit Article'
-      document.title = `${title} - ${this.postForm.id}`
+    draftForm() {
+      console.log('Draft cancelled')
+      this.$router.push({ name: 'PatientList' })
     },
     submitForm() {
       console.log(this.postForm)
@@ -321,34 +297,13 @@ export default {
         }
       })
     },
-    draftForm() {
-      if (this.postForm.content.length === 0 || this.postForm.title.length === 0) {
-        this.$message({
-          message: '请填写必要的标题和内容',
-          type: 'warning'
-        })
-        return
-      }
-      this.$message({
-        message: '保存成功',
-        type: 'success',
-        showClose: true,
-        duration: 1000
-      })
-      this.postForm.status = 'draft'
-    },
-    getRemoteUserList(query) {
-      searchUser(query).then(response => {
-        if (!response.data.items) return
-        this.userListOptions = response.data.items.map(v => v.name)
-      })
-    },
     // Function to add a new patient document to Firestore
     async addPatients(dataObj) {
       console.log('Adding patient:', dataObj)
       const colRef = collection(db, 'patients')
       const docRef = await addDoc(colRef, dataObj)
       console.log('Document was created with ID:', docRef.id)
+      this.$router.push({ name: 'PatientList' })
     }
   }
 }
@@ -361,7 +316,7 @@ export default {
   position: relative;
 
   .createPost-main-container {
-    padding: 40px 45px 20px 50px;
+    padding: 20px 10px;
 
     .postInfo-container {
       position: relative;
@@ -380,6 +335,12 @@ export default {
     right: 10px;
     top: 0px;
   }
+
+  .el-divider__text{
+    font-size: 15px !important;
+    font-weight: 600 !important;
+  }
+
 }
 
 .article-textarea ::v-deep {

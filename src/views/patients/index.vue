@@ -13,7 +13,19 @@
         </template>
       </el-table-column>
 
-      <el-table-column width="120px" align="center" label="weight (kg)">
+      <el-table-column width="120px" align="center" label="Age">
+        <template slot-scope="{row}">
+          <span>{{ row.age }}</span>
+        </template>
+      </el-table-column>
+
+      <el-table-column width="120px" align="center" label="Gender">
+        <template slot-scope="{row}">
+          <span>{{ row.gender }}</span>
+        </template>
+      </el-table-column>
+
+      <el-table-column width="120px" align="center" label="Weight (kg)">
         <template slot-scope="{row}">
           <span>{{ row.weight }}</span>
         </template>
@@ -22,6 +34,18 @@
       <el-table-column width="180px" align="center" label="Address">
         <template slot-scope="{row}">
           <span>{{ row.address }}</span>
+        </template>
+      </el-table-column>
+
+      <el-table-column width="140px" align="center" label="Illness">
+        <template slot-scope="{row}">
+          <span>{{ row.illness }}</span>
+        </template>
+      </el-table-column>
+
+      <el-table-column width="200px" align="center" label="Appointment date">
+        <template slot-scope="{row}">
+          <span>{{ formatDate(row.appointment_date.toDate()) }}</span>
         </template>
       </el-table-column>
 
@@ -67,6 +91,12 @@ export default {
     this.fetchData()
   },
   methods: {
+    // format date from timestamp
+    formatDate(timestamp) {
+      if (!timestamp) return ''
+      const date = new Date(timestamp)
+      return date.toLocaleString() // or use toLocaleDateString(), etc.
+    },
     async fetchData() {
       const data = await getDocsByCollection('patients')
       this.list = data.map(v => {
