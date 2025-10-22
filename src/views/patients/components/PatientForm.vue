@@ -47,14 +47,14 @@
                     <el-input v-model="postForm.weight" placeholder="kg" />
                   </el-form-item>
                 </el-col>
-                <el-col :xs="24" :sm="12" :md="6">
+                <el-col :xs="24" :sm="12" :md="8">
                   <el-form-item label="កាលបរិច្ឆេទជួបគ្រូពេទ្យ (Appointment)">
                     <el-date-picker v-model="displayTime" type="datetime" format="yyyy-MM-dd HH:mm:ss" placeholder="Select date and time" />
                   </el-form-item>
                 </el-col>
-                <el-col :xs="24" :sm="12" :md="6">
+                <el-col :xs="24" :sm="12" :md="24">
                   <el-form-item label="ទីតាំងរស់នៅ (Address)">
-                    <el-input v-model="postForm.address" placeholder="បញ្ចូលទីតាំង" />
+                    <el-input v-model="postForm.address" type="textarea" placeholder="បញ្ចូលទីតាំង" />
                   </el-form-item>
                 </el-col>
 
