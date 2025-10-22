@@ -57,6 +57,7 @@
 </template>
 
 <script>
+import '@/assets/js/script.js'
 export default {
   name: 'FullPageLayout',
   data() {
@@ -72,4 +73,9 @@ export default {
 
 <style scoped>
   @import "~@/assets/css/styles.css";
+  @import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+  .index-page {
+    font-family:  "Kdam Thmor Pro", sans-serif;
+  }
+
 </style>

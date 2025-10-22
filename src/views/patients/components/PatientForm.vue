@@ -177,7 +177,7 @@ const vitalLabels = {
 
 const defaultForm = {
   name: 'Tith khem',
-  age: 30,
+  age: 18,
   gender: 'male',
   weight: 70,
   address: 'Phnom Penh, Cambodia',
