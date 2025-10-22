@@ -45,7 +45,7 @@
 
       <el-table-column width="200px" align="center" label="Appointment date">
         <template slot-scope="{row}">
-          <span>{{ formatDate(row.appointment_date.toDate()) }}</span>
+          <span>{{ formatDate(row.appointment_date) }}</span>
         </template>
       </el-table-column>
 
@@ -93,8 +93,8 @@ export default {
   methods: {
     // format date from timestamp
     formatDate(timestamp) {
-      if (!timestamp) return ''
-      const date = new Date(timestamp)
+      if (timestamp === '') return ''
+      const date = new Date(timestamp.toDate())
       return date.toLocaleString() // or use toLocaleDateString(), etc.
     },
     async fetchData() {

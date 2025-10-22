@@ -22,17 +22,17 @@
               <el-divider content-position="left">ព័ត៌មានអ្នកជំងឺ (Patient Information)</el-divider>
               <el-row :gutter="20">
                 <el-col :xs="24" :sm="12" :md="6">
-                  <el-form-item label="ឈ្មោះ (Name)">
+                  <el-form-item label="ឈ្មោះ (Name)" prop="name">
                     <el-input v-model="postForm.name" placeholder="បញ្ចូលឈ្មោះ" />
                   </el-form-item>
                 </el-col>
                 <el-col :xs="24" :sm="12" :md="6">
-                  <el-form-item label="អាយុ (Age)">
+                  <el-form-item label="អាយុ (Age)" prop="age">
                     <el-input v-model="postForm.age" type="number" min="0" />
                   </el-form-item>
                 </el-col>
                 <el-col :xs="24" :sm="12" :md="6">
-                  <el-form-item label="ភេទ (Gender)">
+                  <el-form-item label="ភេទ (Gender)" prop="gender">
                     <el-select v-model="postForm.gender" placeholder="ជ្រើសរើស">
                       <el-option label="ប្រុស (Male)" value="male" />
                       <el-option label="ស្រី (Female)" value="female" />
@@ -43,7 +43,7 @@
 
               <el-row :gutter="20">
                 <el-col :xs="24" :sm="12" :md="6">
-                  <el-form-item label="ទម្ងន់ (Weight)">
+                  <el-form-item label="ទម្ងន់ (Weight)" prop="weight">
                     <el-input v-model="postForm.weight" placeholder="kg" />
                   </el-form-item>
                 </el-col>
@@ -218,30 +218,25 @@ export default {
     }
   },
   data() {
-    // const validateRequire = (rule, value, callback) => {
-    //   if (value === '') {
-    //     this.$message({
-    //       message: rule.field + 'required',
-    //       type: 'error'
-    //     })
-    //     callback(new Error(rule.field + '为必传项'))
-    //   } else {
-    //     callback()
-    //   }
-    // }
+    const validateRequire = (rule, value, callback) => {
+      if (value === '') {
+        // this.$message({
+        //   message: rule.field + ' is required',
+        //   type: 'error'
+        // })
+        callback(new Error(rule.field + ' is required'))
+      } else {
+        callback()
+      }
+    }
     return {
       postForm: Object.assign({}, defaultForm),
       loading: false,
       userListOptions: [],
       rules: {
-        name: [
-          { required: true, message: 'Please input name', trigger: 'blur' },
-          {
-            min: 3,
-            message: 'Name must be at least 3 characters',
-            trigger: 'blur'
-          }
-        ]
+        name: [{ validator: validateRequire }],
+        age: [{ validator: validateRequire }],
+        gender: [{ validator: validateRequire }]
       },
       tempRoute: {},
       vitalLabels: vitalLabels
