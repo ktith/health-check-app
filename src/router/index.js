@@ -74,36 +74,37 @@ export const constantRoutes = [
   {
     path: '/',
     component: FullPageLayout,
+    hidden: true,
     children: [
       {
         path: '',
         component: () => import('@/views/homepage/index'),
         name: 'Homepage',
-        meta: { title: 'Homepage', icon: 'dashboard', affix: true }
+        hidden: true
       },
       {
         path: '/understanding',
         component: () => import('@/views/homepage/understanding'),
         name: 'UnderstandingPage',
-        meta: { title: 'UnderstandingPage', icon: 'dashboard', affix: true }
+        hidden: true
       },
       {
         path: '/prevention',
         component: () => import('@/views/homepage/prevention'),
         name: 'PreventionPage',
-        meta: { title: 'PreventionPage', icon: 'dashboard', affix: true }
+        hidden: true
       },
       {
         path: '/management',
         component: () => import('@/views/homepage/management'),
         name: 'ManagementPage',
-        meta: { title: 'ManagementPage', icon: 'dashboard', affix: true }
+        hidden: true
       },
       {
         path: '/resources',
         component: () => import('@/views/homepage/resources'),
         name: 'ResourcesPage',
-        meta: { title: 'ResourcesPage', icon: 'dashboard', affix: true }
+        hidden: true
       }
     ]
   },

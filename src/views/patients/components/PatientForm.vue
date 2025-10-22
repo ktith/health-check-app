@@ -16,65 +16,138 @@
           <el-col :span="24">
             <el-card shadow="hover" class="rounded-2xl">
               <template #header>
-                <span class="text-lg font-semibold">🩺 1. ព័ត៌មានអ្នកជំងឺ</span>
+                <span class="text-lg font-semibold">ចុះឈ្មោះអ្នកជំងឺ</span>
               </template>
 
-              <!-- Name -->
-              <el-form-item label="ឈ្មោះ (Name)" prop="name">
-                <el-input v-model="postForm.name" placeholder="បញ្ចូលឈ្មោះ" />
+              <!-- Patient Information -->
+              <el-divider content-position="left">ព័ត៌មានអ្នកជំងឺ (Patient Information)</el-divider>
+              <el-row :gutter="20">
+                <el-col :span="12">
+                  <el-form-item label="ឈ្មោះ (Name)">
+                    <el-input v-model="postForm.name" placeholder="បញ្ចូលឈ្មោះ" />
+                  </el-form-item>
+                </el-col>
+                <el-col :span="6">
+                  <el-form-item label="អាយុ (Age)">
+                    <el-input v-model="postForm.age" type="number" min="0" />
+                  </el-form-item>
+                </el-col>
+                <el-col :span="6">
+                  <el-form-item label="ភេទ (Gender)">
+                    <el-select v-model="postForm.gender" placeholder="ជ្រើសរើស">
+                      <el-option label="ប្រុស (Male)" value="male" />
+                      <el-option label="ស្រី (Female)" value="female" />
+                    </el-select>
+                  </el-form-item>
+                </el-col>
+              </el-row>
+
+              <el-row :gutter="20">
+                <el-col :span="6">
+                  <el-form-item label="ទម្ងន់ (Weight)">
+                    <el-input v-model="postForm.weight" placeholder="kg" />
+                  </el-form-item>
+                </el-col>
+                <el-col :span="18">
+                  <el-form-item label="ទីតាំងរស់នៅ (Address)">
+                    <el-input v-model="postForm.address" placeholder="បញ្ចូលទីតាំង" />
+                  </el-form-item>
+                </el-col>
+              </el-row>
+
+              <!-- Disease Type -->
+              <el-divider content-position="left">ជ្រើសរើសប្រភេទនៃជំងឺ (Select Disease Type)</el-divider>
+              <el-collapse>
+                <el-collapse-item title="Cardiovascular diseases (ជំងឺបេះដូង)">
+                  <el-checkbox-group v-model="postForm.diseases.cardiovascular">
+                    <el-checkbox label="heart attacks" />
+                    <el-checkbox label="stroke" />
+                    <el-checkbox label="hypertension" />
+                  </el-checkbox-group>
+                </el-collapse-item>
+
+                <el-collapse-item title="Chronic respiratory diseases (ជំងឺសួត)">
+                  <el-checkbox-group v-model="postForm.diseases.respiratory">
+                    <el-checkbox label="COPD" />
+                    <el-checkbox label="asthma" />
+                  </el-checkbox-group>
+                </el-collapse-item>
+
+                <el-collapse-item title="Cancers (ជំងឺមហារីក)">
+                  <el-checkbox-group v-model="postForm.diseases.cancer">
+                    <el-checkbox label="lung cancer" />
+                    <el-checkbox label="breast cancer" />
+                    <el-checkbox label="liver cancer" />
+                    <el-checkbox label="cervical cancer" />
+                  </el-checkbox-group>
+                </el-collapse-item>
+
+                <el-collapse-item title="Diabetes (ជំងឺទឹកនោមផ្អែម)">
+                  <el-checkbox-group v-model="postForm.diseases.diabetes">
+                    <el-checkbox label="type 1" />
+                    <el-checkbox label="type 2" />
+                  </el-checkbox-group>
+                </el-collapse-item>
+
+                <el-collapse-item title="Mental & neurological disorders (ជំងឺផ្លូវចិត្ត)">
+                  <el-checkbox-group v-model="postForm.diseases.mental">
+                    <el-checkbox label="Depression" />
+                  </el-checkbox-group>
+                </el-collapse-item>
+
+                <el-collapse-item title="Musculoskeletal disorders (ជំងឺសាច់ដុំនិងឆ្អឹង)">
+                  <el-checkbox-group v-model="postForm.diseases.musculoskeletal">
+                    <el-checkbox label="arthritis" />
+                    <el-checkbox label="osteoporosis" />
+                  </el-checkbox-group>
+                </el-collapse-item>
+
+                <el-collapse-item title="Chronic kidney disease">
+                  <el-checkbox-group v-model="postForm.diseases.kidney">
+                    <el-checkbox label="chronic kidney disease" />
+                  </el-checkbox-group>
+                </el-collapse-item>
+              </el-collapse>
+
+              <!-- Vital Signs -->
+              <el-divider content-position="left">ការយកសញ្ញាជីវិត ៥ (Vital Signs)</el-divider>
+              <el-row :gutter="20">
+                <el-col v-for="(label, key) in vitalLabels" :key="key" :span="8">
+                  <el-form-item :label="label">
+                    <el-input v-model="postForm.vitals[key]" placeholder="បញ្ចូលតម្លៃ" />
+                  </el-form-item>
+                </el-col>
+              </el-row>
+
+              <!-- Blood Sugar -->
+              <el-form-item label="កម្រិតជាតិស្ករ (If diabetic)">
+                <el-input v-model="postForm.vitals.bloodSugar" placeholder="mg/dL" />
               </el-form-item>
 
-              <!-- Age -->
-              <el-form-item label="អាយុ (Age)" prop="age">
-                <el-input-number v-model="postForm.age" :min="0" />
+              <!-- Consultation -->
+              <el-divider content-position="left">Consultation with Doctors</el-divider>
+              <el-form-item label="ពិគ្រោះជាមួយវេជ្ជបណ្ឌិត">
+                <el-input v-model="postForm.consultation" type="textarea" placeholder="សរសេរព័ត៌មានពិគ្រោះ" />
               </el-form-item>
 
-              <!-- Gender -->
-              <el-form-item label="ភេទ (Gender)" prop="gender">
-                <el-select v-model="postForm.gender" placeholder="ជ្រើសរើសភេទ">
-                  <el-option label="ប្រុស (Male)" value="Male" />
-                  <el-option label="ស្រី (Female)" value="Female" />
-                </el-select>
+              <!-- Advice -->
+              <el-divider content-position="left">Give Advice (ដំបូន្មាន)</el-divider>
+              <el-form-item label="ដំបូន្មានដល់អ្នកជំងឺ">
+                <el-input v-model="postForm.adviceText" type="textarea" placeholder="សរសេរដំបូន្មាន" />
               </el-form-item>
 
-              <!-- Weight -->
-              <el-form-item label="ទម្ងន់ (Weight)" prop="weight">
-                <el-input-number :min="0" :step="0.1" />
-                <span class="ml-2 text-gray-500">kg</span>
+              <el-form-item label="Video អប់រ (Educational Video)">
+                <el-input v-model="postForm.adviceVideo" placeholder="Video URL" />
               </el-form-item>
 
-              <!-- Address -->
-              <el-form-item label="ទីតាំងរស់នៅ (Address)" prop="address">
-                <el-input placeholder="បញ្ចូលទីតាំង" />
-              </el-form-item>
+              <!-- Reminder -->
+              <el-divider content-position="left">Reminder for Patients</el-divider>
+              <el-checkbox-group v-model="postForm.reminders">
+                <el-checkbox label="ពេលហាត់ប្រាណ (Exercise time)" />
+                <el-checkbox label="ញុំាបាយ (Meal time)" />
+                <el-checkbox label="ពេលវេលាលេបថ្នាំ (Medication time)" />
+              </el-checkbox-group>
 
-              <!-- Illness -->
-              <el-form-item label="ប្រភេទជំងឺ (Illness)" prop="illness">
-                <el-select v-model="postForm.illness" placeholder="ជ្រើសរើសភេទ">
-                  <el-option label="ជំងឺបេះដូង" value="Male" />
-                  <el-option label="ជំងឺមហារីក" value="Female" />
-                  <el-option label="ជំងឺទឹកនោមផ្អែម" value="Female" />
-                </el-select>
-              </el-form-item>
-
-              <!-- Appointment Date -->
-              <el-form-item label="កាលបរិច្ឆេទជួបគ្រូពេទ្យ (Appointment)" prop="appointmentDate">
-                <el-date-picker
-                  type="date"
-                  placeholder="ជ្រើសរើសកាលបរិច្ឆេទ"
-                  format="YYYY-MM-DD"
-                  value-format="YYYY-MM-DD"
-                />
-              </el-form-item>
-
-              <!-- Preview -->
-              <!-- <el-divider />
-              <div v-if="submitted" class="mt-4">
-                <h3 class="font-semibold mb-2">📋 Submitted Data:</h3>
-                <el-alert type="success" show-icon :closable="false">
-                  <pre>{{ postForm }}</pre>
-                </el-alert>
-              </div> -->
             </el-card>
           </el-col>
         </el-row>
@@ -84,23 +157,54 @@
 </template>
 
 <script>
-import Sticky from '@/components/Sticky' // 粘性header组件
+
+import Sticky from '@/components/Sticky'
 import { validURL } from '@/utils/validate'
 import { fetchArticle } from '@/api/article'
 import { searchUser } from '@/api/remote-search'
 
+// import firebase firestore
+import db from '@/firebase/init.js'
+import { collection, addDoc } from 'firebase/firestore'
+
+const vitalLabels = {
+  bloodPressure: 'សម្ពាធឈាម (Blood Pressure)',
+  pulse: 'ជីពចរ (Pulse)',
+  oxygen: 'អុកសុីសែនក្នុងឈាម (Oxygen)',
+  respiration: 'ចង្វាក់ដង្ហើម (Respiration)',
+  temperature: 'សុីត្ហភាព (Temperature)'
+}
+
 const defaultForm = {
-  status: 'draft',
-  title: '', // 文章题目
-  content: '', // 文章内容
-  content_short: '', // 文章摘要
-  source_uri: '', // 文章外链
-  image_uri: '', // 文章图片
-  display_time: undefined, // 前台展示时间
-  id: undefined,
-  platforms: ['a-platform'],
-  comment_disabled: false,
-  importance: 0
+  name: 'Tith khem',
+  age: 30,
+  gender: 'male',
+  weight: 70,
+  address: 'Phnom Penh, Cambodia',
+  illness: 'Diabetes',
+  appointment_date: undefined,
+  diseases: {
+    cardiovascular: [],
+    respiratory: [],
+    cancer: [],
+    diabetes: [],
+    mental: [],
+    musculoskeletal: [],
+    kidney: []
+  },
+  vitals: {
+    bloodPressure: '',
+    pulse: '',
+    oxygen: '',
+    respiration: '',
+    temperature: '',
+    bloodSugar: ''
+  },
+  consultation: '',
+  adviceText: '',
+  adviceVideo: '',
+  reminders: [],
+  status: 'draft'
 }
 
 export default {
@@ -149,23 +253,21 @@ export default {
         content: [{ validator: validateRequire }],
         source_uri: [{ validator: validateSourceUri, trigger: 'blur' }]
       },
-      tempRoute: {}
+      tempRoute: {},
+      vitalLabels: vitalLabels
     }
   },
   computed: {
-    contentShortLength() {
-      return this.postForm.content_short.length
-    },
     displayTime: {
       // set and get is useful when the data
       // returned by the back end api is different from the front end
       // back end return => "2013-06-25 06:59:25"
       // front end need timestamp => 1372114765000
       get() {
-        return (+new Date(this.postForm.display_time))
+        return (+new Date(this.postForm.appointment_date))
       },
       set(val) {
-        this.postForm.display_time = new Date(val)
+        this.postForm.appointment_date = new Date(val)
       }
     }
   },
@@ -247,6 +349,17 @@ export default {
         if (!response.data.items) return
         this.userListOptions = response.data.items.map(v => v.name)
       })
+    },
+    // Function to add a new patient document to Firestore
+    async addPatients() {
+      const colRef = collection(db, 'patients')
+      const dataObj = {
+        id: 'patient_' + Date.now(),
+        name: 'New Patient',
+        date_in: new Date()
+      }
+      const docRef = await addDoc(colRef, dataObj)
+      console.log('Document was created with ID:', docRef.id)
     }
   }
 }
