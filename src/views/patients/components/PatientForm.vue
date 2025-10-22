@@ -1,7 +1,6 @@
 <template>
   <div class="createPost-container">
     <el-form ref="postForm" :model="postForm" :rules="rules" class="form-container">
-
       <sticky :z-index="10" :class-name="'sub-navbar '+postForm.status">
         <el-button v-loading="loading" style="margin-left: 10px;" type="success" @click="submitForm">
           Save
@@ -22,17 +21,17 @@
               <!-- Patient Information -->
               <el-divider content-position="left">ព័ត៌មានអ្នកជំងឺ (Patient Information)</el-divider>
               <el-row :gutter="20">
-                <el-col :span="12">
+                <el-col :xs="24" :sm="12" :md="6">
                   <el-form-item label="ឈ្មោះ (Name)">
                     <el-input v-model="postForm.name" placeholder="បញ្ចូលឈ្មោះ" />
                   </el-form-item>
                 </el-col>
-                <el-col :span="6">
+                <el-col :xs="24" :sm="12" :md="6">
                   <el-form-item label="អាយុ (Age)">
                     <el-input v-model="postForm.age" type="number" min="0" />
                   </el-form-item>
                 </el-col>
-                <el-col :span="6">
+                <el-col :xs="24" :sm="12" :md="6">
                   <el-form-item label="ភេទ (Gender)">
                     <el-select v-model="postForm.gender" placeholder="ជ្រើសរើស">
                       <el-option label="ប្រុស (Male)" value="male" />
@@ -43,16 +42,22 @@
               </el-row>
 
               <el-row :gutter="20">
-                <el-col :span="6">
+                <el-col :xs="24" :sm="12" :md="6">
                   <el-form-item label="ទម្ងន់ (Weight)">
                     <el-input v-model="postForm.weight" placeholder="kg" />
                   </el-form-item>
                 </el-col>
-                <el-col :span="18">
+                <el-col :xs="24" :sm="12" :md="6">
+                  <el-form-item label="កាលបរិច្ឆេទជួបគ្រូពេទ្យ (Appointment)">
+                    <el-date-picker v-model="displayTime" type="datetime" format="yyyy-MM-dd HH:mm:ss" placeholder="Select date and time" />
+                  </el-form-item>
+                </el-col>
+                <el-col :xs="24" :sm="12" :md="6">
                   <el-form-item label="ទីតាំងរស់នៅ (Address)">
                     <el-input v-model="postForm.address" placeholder="បញ្ចូលទីតាំង" />
                   </el-form-item>
                 </el-col>
+
               </el-row>
 
               <!-- Disease Type -->
@@ -112,7 +117,7 @@
               <!-- Vital Signs -->
               <el-divider content-position="left">ការយកសញ្ញាជីវិត ៥ (Vital Signs)</el-divider>
               <el-row :gutter="20">
-                <el-col v-for="(label, key) in vitalLabels" :key="key" :span="8">
+                <el-col v-for="(label, key) in vitalLabels" :key="key" :xs="24" :sm="12" :md="6">
                   <el-form-item :label="label">
                     <el-input v-model="postForm.vitals[key]" placeholder="បញ្ចូលតម្លៃ" />
                   </el-form-item>
@@ -159,7 +164,6 @@
 <script>
 
 import Sticky from '@/components/Sticky'
-import { validURL } from '@/utils/validate'
 import { fetchArticle } from '@/api/article'
 import { searchUser } from '@/api/remote-search'
 
@@ -176,13 +180,13 @@ const vitalLabels = {
 }
 
 const defaultForm = {
-  name: 'Tith khem',
-  age: 18,
-  gender: 'male',
-  weight: 70,
-  address: 'Phnom Penh, Cambodia',
-  illness: 'Diabetes',
-  appointment_date: undefined,
+  name: '',
+  age: '',
+  gender: '',
+  weight: '',
+  address: '',
+  illness: '',
+  appointment_date: '',
   diseases: {
     cardiovascular: [],
     respiratory: [],
@@ -203,8 +207,7 @@ const defaultForm = {
   consultation: '',
   adviceText: '',
   adviceVideo: '',
-  reminders: [],
-  status: 'draft'
+  reminders: []
 }
 
 export default {
@@ -217,41 +220,30 @@ export default {
     }
   },
   data() {
-    const validateRequire = (rule, value, callback) => {
-      if (value === '') {
-        this.$message({
-          message: rule.field + '为必传项',
-          type: 'error'
-        })
-        callback(new Error(rule.field + '为必传项'))
-      } else {
-        callback()
-      }
-    }
-    const validateSourceUri = (rule, value, callback) => {
-      if (value) {
-        if (validURL(value)) {
-          callback()
-        } else {
-          this.$message({
-            message: '外链url填写不正确',
-            type: 'error'
-          })
-          callback(new Error('外链url填写不正确'))
-        }
-      } else {
-        callback()
-      }
-    }
+    // const validateRequire = (rule, value, callback) => {
+    //   if (value === '') {
+    //     this.$message({
+    //       message: rule.field + 'required',
+    //       type: 'error'
+    //     })
+    //     callback(new Error(rule.field + '为必传项'))
+    //   } else {
+    //     callback()
+    //   }
+    // }
     return {
       postForm: Object.assign({}, defaultForm),
       loading: false,
       userListOptions: [],
       rules: {
-        name: [{ validator: validateRequire }],
-        age: [{ validator: validateRequire }],
-        content: [{ validator: validateRequire }],
-        source_uri: [{ validator: validateSourceUri, trigger: 'blur' }]
+        name: [
+          { required: true, message: 'Please input name', trigger: 'blur' },
+          {
+            min: 3,
+            message: 'Name must be at least 3 characters',
+            trigger: 'blur'
+          }
+        ]
       },
       tempRoute: {},
       vitalLabels: vitalLabels
@@ -313,10 +305,11 @@ export default {
       console.log(this.postForm)
       this.$refs.postForm.validate(valid => {
         if (valid) {
+          this.addPatients(this.postForm)
           this.loading = true
           this.$notify({
-            title: 'Save Data',
-            message: 'dd',
+            title: 'Successfully!',
+            message: 'Record has been saved.',
             type: 'success',
             duration: 2000
           })
@@ -351,13 +344,9 @@ export default {
       })
     },
     // Function to add a new patient document to Firestore
-    async addPatients() {
+    async addPatients(dataObj) {
+      console.log('Adding patient:', dataObj)
       const colRef = collection(db, 'patients')
-      const dataObj = {
-        id: 'patient_' + Date.now(),
-        name: 'New Patient',
-        date_in: new Date()
-      }
       const docRef = await addDoc(colRef, dataObj)
       console.log('Document was created with ID:', docRef.id)
     }

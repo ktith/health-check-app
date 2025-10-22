@@ -12,67 +12,28 @@
           <span>{{ row.name }}</span>
         </template>
       </el-table-column>
-      <!--
-      <el-table-column width="180px" align="center" label="Last Visit">
+
+      <el-table-column width="120px" align="center" label="weight (kg)">
         <template slot-scope="{row}">
-          <span>{{ row.date_in }}</span>
+          <span>{{ row.weight }}</span>
         </template>
       </el-table-column>
 
-      <el-table-column width="100px" label="Importance">
+      <el-table-column width="180px" align="center" label="Address">
         <template slot-scope="{row}">
-          <svg-icon v-for="n in + row.importance" :key="n" icon-class="star" class="meta-item__icon" />
-        </template>
-      </el-table-column>
-
-      <el-table-column class-name="status-col" label="Status" width="110">
-        <template slot-scope="{row}">
-          <el-tag :type="row.status | statusFilter">
-            {{ row.status }}
-          </el-tag>
-        </template>
-      </el-table-column>
-
-      <el-table-column min-width="300px" label="Title">
-        <template slot-scope="{row}">
-          <template v-if="row.edit">
-            <el-input v-model="row.title" class="edit-input" size="small" />
-            <el-button
-              class="cancel-btn"
-              size="small"
-              icon="el-icon-refresh"
-              type="warning"
-              @click="cancelEdit(row)"
-            >
-              cancel
-            </el-button>
-          </template>
-          <span v-else>{{ row.title }}</span>
+          <span>{{ row.address }}</span>
         </template>
       </el-table-column>
 
       <el-table-column align="center" label="Actions" width="120">
-        <template slot-scope="{row}">
-          <el-button
-            v-if="row.edit"
-            type="success"
-            size="small"
-            icon="el-icon-circle-check-outline"
-            @click="confirmEdit(row)"
-          >
-            Ok
-          </el-button>
-          <el-button
-            v-else
-            type="primary"
-            size="small"
-            icon="el-icon-edit"
-            @click="row.edit=!row.edit"
-          >
-            Edit
-          </el-button>
+        <template slot-scope="scope">
+          <router-link :to="'/patients/edit/'+scope.row.id">
+            <el-button type="primary" size="small" icon="el-icon-edit">
+              Edit
+            </el-button>
+          </router-link>
         </template>
-      </el-table-column> -->
+      </el-table-column>
     </el-table>
   </div>
 </template>
@@ -111,7 +72,7 @@ export default {
       this.list = data.map(v => {
         console.log(v)
         this.$set(v, 'edit', false) // https://vuejs.org/v2/guide/reactivity.html
-        v.originalTitle = v.title //  will be used when user click the cancel botton
+        // v.originalTitle = v.title //  will be used when user click the cancel botton
         return v
       })
       this.listLoading = false
