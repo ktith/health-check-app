@@ -4,7 +4,9 @@
     <nav class="navbar">
       <div class="container">
         <div class="logo">
-          <h2>សុខភាពសម្រាប់ជំងឺមិនឆ្លង</h2>
+          <a href="/">
+            <h2>សុខភាពសម្រាប់ជំងឺមិនឆ្លង</h2>
+          </a>
         </div>
         <ul class="nav-menu">
           <li>
