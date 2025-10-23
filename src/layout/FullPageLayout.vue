@@ -7,11 +7,21 @@
           <h2>សុខភាពសម្រាប់ជំងឺមិនឆ្លង</h2>
         </div>
         <ul class="nav-menu">
-          <li><a href="/" class="active">ទំព័រដើម</a></li>
-          <li><a href="/#/understanding">ការយល់ដឹងអំពីជំងឺមិនឆ្លង</a></li>
-          <li><a href="/#/prevention">ការបង្ការ</a></li>
-          <li><a href="/#/management">ការគ្រប់គ្រង</a></li>
-          <li><a href="/#/resources">ធនធាន</a></li>
+          <li>
+            <router-link to="/" exact-active-class="active">ទំព័រដើម</router-link>
+          </li>
+          <li>
+            <router-link to="/understanding" active-class="active">ការយល់ដឹងអំពីជំងឺមិនឆ្លង</router-link>
+          </li>
+          <li>
+            <router-link to="/prevention" active-class="active">ការបង្ការ</router-link>
+          </li>
+          <li>
+            <router-link to="/management" active-class="active">ការគ្រប់គ្រង</router-link>
+          </li>
+          <li>
+            <router-link to="/resources" active-class="active">ធនធាន</router-link>
+          </li>
         </ul>
         <div id="mobile-menu" class="menu-toggle">
           <span />
