@@ -57,7 +57,6 @@
 </template>
 
 <script>
-import '@/assets/js/script.js'
 export default {
   name: 'FullPageLayout',
   data() {
@@ -66,7 +65,10 @@ export default {
     }
   },
   mounted() {
-    //
+    require('@/assets/js/script.js')
+  },
+  methods: {
+
   }
 }
 </script>
