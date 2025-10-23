@@ -3,329 +3,146 @@
     <!-- Page Header -->
     <section class="page-header">
       <div class="container">
-        <h1>Resources and Support</h1>
-        <p>Find trusted information, organizations, and support services</p>
+        <h1>ធនធាន និងការគាំទ្រ</h1>
+        <p>ស្វែងរកព័ត៌មានដែលអាចទុកចិត្តបាន អង្គការផ្សេងៗ និងសេវាគាំទ្រ</p>
       </div>
     </section>
 
     <!-- Content Section -->
     <section class="content-section">
       <div class="container">
-        <h2>International Health Organizations</h2>
-        <p>
-          These reputable international organizations provide evidence-based
-          information, guidelines, and resources on non-communicable diseases.
-        </p>
+        <h2>អង្គការសុខភាពអន្តរជាតិ</h2>
+        <p>អង្គការអន្តរជាតិដ៏មានកេរ្តិ៍ឈ្មោះទាំងនេះ ផ្តល់ព័ត៌មាន ផ្នែកណែនាំ និងធនធានដែលមានផ្ទៃពិតអំពីជំងឺមិនឆ្លង។</p>
 
         <div class="risk-category">
-          <h3>World Health Organization (WHO)</h3>
-          <p>
-            The WHO is the leading international authority on global health
-            issues, providing comprehensive information on NCDs, prevention
-            strategies, and global health initiatives.
-          </p>
-          <p>
-            <strong>Website:</strong>
-            <a
-              href="https://www.who.int/health-topics/noncommunicable-diseases"
-              target="_blank"
-              rel="noopener"
-            >www.who.int/health-topics/noncommunicable-diseases</a>
-          </p>
+          <h3>អង្គការសុខភាពពិភពលោក (WHO)</h3>
+          <p>WHO ជាអាជ្ញាធរអន្តរជាតិសំខាន់បំផុតផ្នែកសុខភាព ដែលផ្តល់ព័ត៌មានទូលំទូលាយអំពីជំងឺមិនឆ្លង វិធានការការពារ និងយុទ្ធនាការសុខភាពពិភពលោក។</p>
+          <p><strong>គេហទំព័រ:</strong> <a href="https://www.who.int/health-topics/noncommunicable-diseases" target="_blank" rel="noopener">www.who.int/health-topics/noncommunicable-diseases</a></p>
         </div>
 
         <div class="risk-category">
-          <h3>NCD Alliance</h3>
-          <p>
-            A global civil society network uniting 2,000+ organizations in more
-            than 170 countries, dedicated to improving NCD prevention and
-            control.
-          </p>
-          <p>
-            <strong>Website:</strong>
-            <a
-              href="https://ncdalliance.org"
-              target="_blank"
-              rel="noopener"
-            >ncdalliance.org</a>
-          </p>
+          <h3>សម្ព័ន្ធ NCD Alliance</h3>
+          <p>បណ្តាញសង្គមស៊ីវិលអន្តរជាតិ ដែលរួមបញ្ចូលអង្គការ 2000+ នៅក្នុងប្រទេសជាង 170 ប្រទេស ដើម្បីបង្កើនការការពារ និងគ្រប់គ្រងជំងឺមិនឆ្លង។</p>
+          <p><strong>គេហទំព័រ:</strong> <a href="https://ncdalliance.org" target="_blank" rel="noopener">ncdalliance.org</a></p>
         </div>
 
         <div class="risk-category">
-          <h3>Pan American Health Organization (PAHO)</h3>
-          <p>
-            The specialized international health agency for the Americas,
-            providing resources and support for NCD prevention and management.
-          </p>
-          <p>
-            <strong>Website:</strong>
-            <a
-              href="https://www.paho.org/en/topics/noncommunicable-diseases"
-              target="_blank"
-              rel="noopener"
-            >www.paho.org/en/topics/noncommunicable-diseases</a>
-          </p>
+          <h3>អង្គការសុខភាពអាមេរិក (PAHO)</h3>
+          <p>ជាអាជ្ញាធរផ្នែកសុខភាពអន្តរជាតិ សម្រាប់តំបន់អាមេរិក ដែលផ្តល់ធនធាន និងការគាំទ្រសម្រាប់ការការពារ និងគ្រប់គ្រងជំងឺមិនឆ្លង។</p>
+          <p><strong>គេហទំព័រ:</strong> <a href="https://www.paho.org/en/topics/noncommunicable-diseases" target="_blank" rel="noopener">www.paho.org/en/topics/noncommunicable-diseases</a></p>
         </div>
 
-        <h2>Cardiovascular Disease Resources</h2>
-
+        <h2>ធនធានអំពីជំងឺបេះដូង និងសរសៃឈាម</h2>
         <div class="risk-category">
-          <h3>American Heart Association</h3>
-          <p>
-            Leading organization dedicated to fighting heart disease and stroke,
-            offering patient education, research updates, and support resources.
-          </p>
-          <p>
-            <strong>Website:</strong>
-            <a
-              href="https://www.heart.org"
-              target="_blank"
-              rel="noopener"
-            >www.heart.org</a>
-          </p>
+          <h3>សមាគមបេះដូងអាមេរិក</h3>
+          <p>អង្គការដ៏ឈានមុខផ្នែកប្រយុទ្ធប្រឆាំងនឹងជំងឺបេះដូង និងជំងឺឈាមខួរក្បាល ដោយផ្តល់ការអប់រំ អំពីអ្នកជំងឺ ការស្រាវជ្រាវ និងធនធានជាច្រើន។</p>
+          <p><strong>គេហទំព័រ:</strong> <a href="https://www.heart.org" target="_blank" rel="noopener">www.heart.org</a></p>
         </div>
 
         <div class="risk-category">
-          <h3>World Heart Federation</h3>
-          <p>
-            Global organization committed to leading the fight against
-            cardiovascular disease worldwide.
-          </p>
-          <p>
-            <strong>Website:</strong>
-            <a
-              href="https://world-heart-federation.org"
-              target="_blank"
-              rel="noopener"
-            >world-heart-federation.org</a>
-          </p>
+          <h3>សហព័ន្ធបេះដូងពិភពលោក</h3>
+          <p>អង្គការអន្តរជាតិដែលមានបំណងដឹកនាំការប្រយុទ្ធប្រឆាំងនឹងជំងឺបេះដូងនៅទូទាំងពិភពលោក។</p>
+          <p><strong>គេហទំព័រ:</strong> <a href="https://world-heart-federation.org" target="_blank" rel="noopener">world-heart-federation.org</a></p>
         </div>
 
-        <h2>Cancer Resources</h2>
+        <h2>ធនធានអំពីជំងឺមហារីក</h2>
 
         <div class="risk-category">
-          <h3>American Cancer Society</h3>
-          <p>
-            Comprehensive resource for cancer information, support services, and
-            patient navigation assistance.
-          </p>
-          <p>
-            <strong>Website:</strong>
-            <a
-              href="https://www.cancer.org"
-              target="_blank"
-              rel="noopener"
-            >www.cancer.org</a>
-          </p>
+          <h3>សមាគមមហារីកអាមេរិក</h3>
+          <p>ជាធនធានពេញលេញសម្រាប់ព័ត៌មានអំពីមហារីក សេវាគាំទ្រ និងការជួយណែនាំអ្នកជំងឺ។</p>
+          <p><strong>គេហទំព័រ:</strong> <a href="https://www.cancer.org" target="_blank" rel="noopener">www.cancer.org</a></p>
         </div>
 
         <div class="risk-category">
-          <h3>Union for International Cancer Control (UICC)</h3>
-          <p>
-            The largest and oldest international cancer organization, dedicated
-            to eliminating cancer as a life-threatening disease.
-          </p>
-          <p>
-            <strong>Website:</strong>
-            <a
-              href="https://www.uicc.org"
-              target="_blank"
-              rel="noopener"
-            >www.uicc.org</a>
-          </p>
+          <h3>សហភាពអន្តរជាតិសម្រាប់ការត្រួតពិនិត្យមហារីក (UICC)</h3>
+          <p>ជាសមាគមអន្តរជាតិដ៏ធំ និងចាស់បំផុតផ្នែកមហារីក ដែលមានបំណងលុបបំបាត់មហារីកជាជំងឺគ្រោះថ្នាក់។</p>
+          <p><strong>គេហទំព័រ:</strong> <a href="https://www.uicc.org" target="_blank" rel="noopener">www.uicc.org</a></p>
         </div>
 
-        <h2>Diabetes Resources</h2>
+        <h2>ធនធានអំពីជំងឺទឹកនោមផ្អែម</h2>
 
         <div class="risk-category">
-          <h3>American Diabetes Association</h3>
-          <p>
-            Leading organization providing diabetes research, information, and
-            advocacy, with extensive patient resources.
-          </p>
-          <p>
-            <strong>Website:</strong>
-            <a
-              href="https://www.diabetes.org"
-              target="_blank"
-              rel="noopener"
-            >www.diabetes.org</a>
-          </p>
+          <h3>សមាគមទឹកនោមផ្អែមអាមេរិក</h3>
+          <p>អង្គការដ៏ឈានមុខផ្តល់ការស្រាវជ្រាវ ព័ត៌មាន និងការផ្សព្វផ្សាយអំពីជំងឺទឹកនោមផ្អែម និងធនធានសម្រាប់អ្នកជំងឺ។</p>
+          <p><strong>គេហទំព័រ:</strong> <a href="https://www.diabetes.org" target="_blank" rel="noopener">www.diabetes.org</a></p>
         </div>
 
         <div class="risk-category">
-          <h3>International Diabetes Federation</h3>
-          <p>
-            Global organization representing over 240 diabetes associations in
-            160 countries, promoting diabetes care, prevention, and cure.
-          </p>
-          <p>
-            <strong>Website:</strong>
-            <a
-              href="https://www.idf.org"
-              target="_blank"
-              rel="noopener"
-            >www.idf.org</a>
-          </p>
+          <h3>សហព័ន្ធទឹកនោមផ្អែមអន្តរជាតិ</h3>
+          <p>អង្គការអន្តរជាតិដែលតំណាង អង្គការជំងឺទឹកនោមផ្អែមជាង 240 នៅក្នុងប្រទេស 160 ដើម្បីលើកកម្ពស់ការថែទាំ ការការពារ និងការព្យាបាល។</p>
+          <p><strong>គេហទំព័រ:</strong> <a href="https://www.idf.org" target="_blank" rel="noopener">www.idf.org</a></p>
         </div>
 
-        <h2>Respiratory Disease Resources</h2>
+        <h2>ធនធានអំពីជំងឺផ្លូវដង្ហើម</h2>
 
         <div class="risk-category">
-          <h3>American Lung Association</h3>
-          <p>
-            Leading organization working to save lives by improving lung health
-            and preventing lung disease through education, advocacy, and
-            research.
-          </p>
-          <p>
-            <strong>Website:</strong>
-            <a
-              href="https://www.lung.org"
-              target="_blank"
-              rel="noopener"
-            >www.lung.org</a>
-          </p>
+          <h3>សមាគមសួតអាមេរិក</h3>
+          <p>អង្គការដែលធ្វើការស្រាវជ្រាវ និងគាំទ្រដើម្បីរក្សាសុខភាពសួត និងការពារជំងឺផ្លូវដង្ហើមតាមរយៈការអប់រំ និងការផ្សព្វផ្សាយ។</p>
+          <p><strong>គេហទំព័រ:</strong> <a href="https://www.lung.org" target="_blank" rel="noopener">www.lung.org</a></p>
         </div>
 
         <div class="risk-category">
-          <h3>Global Initiative for Chronic Obstructive Lung Disease (GOLD)</h3>
-          <p>
-            International organization providing evidence-based guidelines for
-            COPD diagnosis, management, and prevention.
-          </p>
-          <p>
-            <strong>Website:</strong>
-            <a
-              href="https://goldcopd.org"
-              target="_blank"
-              rel="noopener"
-            >goldcopd.org</a>
-          </p>
+          <h3>គម្រោងអន្តរជាតិសម្រាប់ជំងឺសួតរ៉ាំរ៉ៃ (GOLD)</h3>
+          <p>អង្គការអន្តរជាតិដែលផ្តល់វិធានការណ៍ និងការណែនាំផ្នែកវេជ្ជសាស្ត្រសម្រាប់ការធ្វើរោគវិនិច្ឆ័យ និងការព្យាបាលជំងឺសួតរ៉ាំរ៉ៃ។</p>
+          <p><strong>គេហទំព័រ:</strong> <a href="https://goldcopd.org" target="_blank" rel="noopener">goldcopd.org</a></p>
         </div>
 
-        <h2>Frequently Asked Questions</h2>
+        <h2>សំណួរដែលសួរញឹកញាប់</h2>
 
         <div class="risk-category">
-          <h3>What are the warning signs that I should see a doctor?</h3>
-          <p>
-            Seek medical attention if you experience persistent symptoms such as
-            chest pain, shortness of breath, unexplained weight loss, extreme
-            fatigue, frequent urination, excessive thirst, chronic cough, or any
-            symptoms that concern you. For severe symptoms like chest pain,
-            difficulty breathing, or sudden weakness, seek emergency care
-            immediately.
-          </p>
+          <h3>តើមានសញ្ញាអ្វីខ្លះដែលបញ្ជាក់ថាខ្ញុំគួរទៅពិនិត្យវេជ្ជបណ្ឌិត?</h3>
+          <p>អ្នកគួរទៅជួបវេជ្ជបណ្ឌិត ប្រសិនបើមានរោគសញ្ញាដូចជា ឈឺទ្រូង ដង្ហើមខ្លី ធ្លាក់ទំងន់ដោយមិនដឹងមូលហេតុ អស់កម្លាំងជាញឹកញាប់ ទឹកនោមញឹកញាប់ ឬស្រេកទឹកខ្លាំង។ ប្រសិនបើមានរោគសញ្ញាដ៏ធ្ងន់ធ្ងរ ដូចជា ឈឺទ្រូង ឬដង្ហើមមិនចេញ សូមស្វែងរកជំនួយបន្ទាន់ភ្លាមៗ។</p>
         </div>
 
         <div class="risk-category">
-          <h3>Can NCDs be cured?</h3>
-          <p>
-            Most NCDs cannot be cured, but they can be effectively managed
-            through proper treatment, lifestyle modifications, and ongoing
-            medical care. Many people with NCDs live long, fulfilling lives with
-            appropriate management.
-          </p>
+          <h3>តើជំងឺមិនឆ្លងអាចព្យាបាលជាសះស្បើយទេ?</h3>
+          <p>ភាគច្រើននៃជំងឺមិនឆ្លងមិនអាចព្យាបាលជាសះស្បើយទេ ប៉ុន្តែអាចគ្រប់គ្រងបានដោយការព្យាបាលត្រឹមត្រូវ ការផ្លាស់ប្តូររបៀបរស់នៅ និងការថែទាំសុខភាពជាបន្តបន្ទាប់។</p>
         </div>
 
         <div class="risk-category">
-          <h3>How can I reduce my risk of developing NCDs?</h3>
-          <p>
-            You can significantly reduce your risk by adopting healthy lifestyle
-            behaviors: eating a balanced diet rich in fruits and vegetables,
-            engaging in regular physical activity, avoiding tobacco use,
-            limiting alcohol consumption, managing stress, maintaining a healthy
-            weight, and getting regular health screenings.
-          </p>
+          <h3>តើខ្ញុំអាចបន្ថយហានិភ័យនៃជំងឺមិនឆ្លងដោយរបៀបណា?</h3>
+          <p>អ្នកអាចបន្ថយហានិភ័យបាន ដោយរក្សារបៀបរស់នៅដែលមានសុខភាពល្អ ដូចជា បរិច្ឆេទអាហារដែលមានសារធាតុចិញ្ចឹម ធ្វើលំហាត់ប្រាណទៀងទាត់ មិនជក់បារី កាត់បន្ថយការផឹកស្រា គ្រប់គ្រងស្ត្រេស រក្សាទំងន់សមរម្យ និងធ្វើតេស្តសុខភាពជាប្រចាំ។</p>
         </div>
 
         <div class="risk-category">
-          <h3>Are NCDs hereditary?</h3>
-          <p>
-            While genetics can play a role in NCD risk, most NCDs result from a
-            combination of genetic, environmental, and behavioral factors.
-            Having a family history of certain NCDs may increase your risk, but
-            lifestyle choices significantly influence whether you develop these
-            conditions.
-          </p>
+          <h3>តើជំងឺមិនឆ្លងមានមូលហេតុពីមរតកទេ?</h3>
+          <p>មរតកអាចមានឥទ្ធិពលលើហានិភ័យនៃជំងឺមិនឆ្លង ប៉ុន្តែភាគច្រើនបណ្តាលមកពីបញ្ហាប្រព័ន្ធបរិស្ថាន និងរបៀបរស់នៅ។ ការរស់នៅដែលមានសុខភាពល្អអាចជួយកាត់បន្ថយហានិភ័យនេះបានយ៉ាងច្រើន។</p>
         </div>
 
         <div class="risk-category">
-          <h3>What should I do if I can't afford my medications?</h3>
-          <p>
-            Talk to your healthcare provider about your financial concerns.
-            Options may include generic medications, patient assistance
-            programs, pharmaceutical company programs, government assistance, or
-            alternative treatment approaches. Never stop taking prescribed
-            medications without consulting your doctor.
-          </p>
+          <h3>តើខ្ញុំគួរធ្វើដូចម្តេច ប្រសិនបើខ្ញុំមិនអាចទិញថ្នាំបាន?</h3>
+          <p>សូមពិភាក្សាជាមួយវេជ្ជបណ្ឌិតរបស់អ្នកអំពីបញ្ហាហិរញ្ញវត្ថុ។ មានជម្រើសដូចជា ថ្នាំជំនួសថោកជាង កម្មវិធីជួយពីក្រុមហ៊ុនថ្នាំ ឬជំនួយពីរដ្ឋាភិបាល។ កុំបោះបង់ថ្នាំដោយខ្លួនឯង។</p>
         </div>
 
         <div class="risk-category">
-          <h3>How often should I see my doctor if I have an NCD?</h3>
-          <p>
-            The frequency of medical visits depends on your specific condition,
-            its severity, and how well it's controlled. Generally, people with
-            NCDs should see their healthcare provider at least every 3-6 months,
-            or more frequently if recommended. Always attend scheduled
-            appointments and contact your doctor if you experience new or
-            worsening symptoms.
-          </p>
+          <h3>តើខ្ញុំគួរជួបវេជ្ជបណ្ឌិតញឹកញាប់ប៉ុណ្ណា ប្រសិនបើខ្ញុំមានជំងឺមិនឆ្លង?</h3>
+          <p>វាអាស្រ័យលើប្រភេទ និងភាពធ្ងន់ធ្ងរនៃជំងឺ។ ជាទូទៅ គួរជួបវេជ្ជបណ្ឌិតរៀងរាល់ ៣ ដល់ ៦ ខែ ឬតាមការណែនាំ។ ប្រសិនបើមានរោគសញ្ញាថ្មី ឬធ្ងន់ធ្ងរឡើង សូមទំនាក់ទំនងវេជ្ជបណ្ឌិតភ្លាម។</p>
         </div>
 
         <div class="risk-category">
-          <h3>Can I exercise if I have an NCD?</h3>
-          <p>
-            In most cases, physical activity is beneficial and recommended for
-            people with NCDs. However, it's important to consult with your
-            healthcare provider before starting any exercise program to
-            determine appropriate activities and intensity levels for your
-            specific condition.
-          </p>
+          <h3>តើខ្ញុំអាចហាត់ប្រាណបានទេ ប្រសិនបើមានជំងឺមិនឆ្លង?</h3>
+          <p>ភាគច្រើននៃករណី ការធ្វើលំហាត់ប្រាណមានប្រយោជន៍ ប៉ុន្តែគួរពិភាក្សាជាមួយវេជ្ជបណ្ឌិត មុនចាប់ផ្តើមកម្មវិធីហាត់ប្រាណ ដើម្បីកំណត់កម្រិតសមស្រប។</p>
         </div>
 
         <div class="risk-category">
-          <h3>Where can I find support groups?</h3>
-          <p>
-            Support groups can be found through hospitals, community health
-            centers, disease-specific organizations (like the American Heart
-            Association or American Diabetes Association), online platforms, and
-            social media groups. Ask your healthcare provider for local
-            recommendations.
-          </p>
+          <h3>តើខ្ញុំអាចស្វែងរកក្រុមគាំទ្របាននៅឯណា?</h3>
+          <p>អ្នកអាចរកក្រុមគាំទ្រតាមមន្ទីរពេទ្យ មជ្ឈមណ្ឌលសុខភាពសហគមន៍ អង្គការដែលពាក់ព័ន្ធនឹងជំងឺ ឬតាមបណ្ដាញអនឡាញ និងសង្គម។ សូមសួរវេជ្ជបណ្ឌិតសម្រាប់ការណែនាំក្នុងតំបន់របស់អ្នក។</p>
         </div>
 
         <div class="info-box">
-          <strong>Important Disclaimer:</strong> The information provided on
-          this website is for educational purposes only and is not intended to
-          replace professional medical advice, diagnosis, or treatment. Always
-          seek the advice of your physician or other qualified health provider
-          with any questions you may have regarding a medical condition. Never
-          disregard professional medical advice or delay seeking it because of
-          information you have read on this website.
+          <strong>ការបដិសេធសំខាន់៖</strong> ព័ត៌មាននៅលើគេហទំព័រនេះគឺសម្រាប់គោលបំណងអប់រំតែប៉ុណ្ណោះ មិនមែនជាការជំនួសដល់ការពិគ្រោះ ឬការព្យាបាលវេជ្ជសាស្ត្រជាក់លាក់ឡើយ។ សូមពិគ្រោះជាមួយវេជ្ជបណ្ឌិតរបស់អ្នកសម្រាប់សំណួរទាក់ទងនឹងសុខភាព។
         </div>
 
         <div class="warning-box">
-          <strong>Emergency Situations:</strong> If you are experiencing a
-          medical emergency, call your local emergency number (such as 911 in
-          the United States) immediately. Do not rely on information from this
-          website in emergency situations.
+          <strong>ស្ថានភាពបន្ទាន់៖</strong> ប្រសិនបើអ្នកកំពុងប្រឈមនឹងស្ថានភាពបន្ទាន់ សូមទូរស័ព្ទទៅលេខបន្ទាន់ក្នុងតំបន់របស់អ្នក (ឧ. 911 សម្រាប់សហរដ្ឋអាមេរិក) ភ្លាមៗ។ កុំពឹងផ្អែកលើព័ត៌មាននៅលើគេហទំព័រនេះក្នុងស្ថានភាពបន្ទាន់។
         </div>
 
-        <h2>Additional Support</h2>
-        <p>
-          Remember that managing an NCD is a journey, and you don't have to do
-          it alone. Reach out to healthcare professionals, connect with support
-          groups, involve your family and friends, and utilize the many
-          resources available to help you live well with your condition.
-        </p>
+        <h2>ការគាំទ្របន្ថែម</h2>
+        <p>ចងចាំថា ការគ្រប់គ្រងជំងឺមិនឆ្លងគឺជាផ្លូវដំណើរយូរ ហើយអ្នកមិនត្រូវឯងទេ។ សូមទាក់ទងអ្នកជំនាញសុខភាព ចូលរួមក្រុមគាំទ្រ និងប្រើប្រាស់ធនធានដែលមាន ដើម្បីរស់នៅបានល្អជាមួយជំងឺរបស់អ្នក។</p>
 
-        <div style="text-align: center; margin-top: 3rem">
-          <a href="index.html" class="btn btn-primary">Return to Home</a>
-          <a
-            href="understanding.html"
-            class="btn btn-secondary"
-          >Learn About NCDs</a>
+        <div style="text-align: center; margin-top: 3rem;">
+          <a href="index.html" class="btn btn-primary">ត្រលប់ទៅទំព័រដើម</a>
+          <a href="understanding.html" class="btn btn-secondary">ស្វែងយល់អំពីជំងឺមិនឆ្លង</a>
         </div>
       </div>
     </section>
