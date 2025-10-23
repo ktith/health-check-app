@@ -164,9 +164,9 @@ export const asyncRoutes = [
       },
       {
         path: 'edit/:id(\\d+)',
-        component: () => import('@/views/example/edit'),
-        name: 'EditArticle',
-        meta: { title: 'Edit Article', noCache: true, activeMenu: '/example/list' },
+        component: () => import('@/views/patients/edit'),
+        name: 'EditPatient',
+        meta: { title: 'Edit Patient', noCache: true, activeMenu: '/patients/list' },
         hidden: true
       },
       {

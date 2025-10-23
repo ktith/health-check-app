@@ -261,13 +261,18 @@ export default {
       const id = this.$route.params && this.$route.params.id
       this.fetchData(id)
     }
-
     // Why need to make a copy of this.$route here?
     // Because if you enter this page and quickly switch tag, may be in the execution of the setTagsViewTitle function, this.$route is no longer pointing to the current page
     // https://github.com/PanJiaChen/vue-element-admin/issues/1221
     this.tempRoute = Object.assign({}, this.$route)
   },
   methods: {
+    fetchData(id) {
+      this.fetchPatient(id)
+    },
+    fetchPatient(id) {
+      console.log('Fetching patient with ID:', id)
+    },
     draftForm() {
       console.log('Draft cancelled')
       this.$router.push({ name: 'PatientList' })
