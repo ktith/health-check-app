@@ -7,7 +7,7 @@ export const getDocsByCollection = async function(collect) {
   const querySnap = await getDocs(query(collection(db, collect)))
   // add each doc to 'countries' array
   querySnap.forEach((doc) => {
-    data.push(doc.data())
+    data.push({ id: doc.id, ...doc.data() })
   })
 
   return data
