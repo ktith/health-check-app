@@ -3,167 +3,107 @@
     <!-- Page Header -->
     <section class="page-header">
       <div class="container">
-        <h1>ការគ្រប់គ្រងជំងឺមិនឆ្លង</h1>
-        <p>រស់នៅបានល្អជាមួយជំងឺប្រចាំកាយតាមរបៀបគ្រប់គ្រងមានប្រសិទ្ធភាព</p>
+        <h1>យល់ដឹងអំពីជំងឺមិនឆ្លង</h1>
+        <p>សិក្សាអំពីប្រភេទ មូលហេតុ និងលក្ខណៈរបស់ជំងឺរ៉ាំរ៉ៃ</p>
       </div>
     </section>
 
     <!-- Content Section -->
     <section class="content-section">
       <div class="container">
-        <h2>Living Well with NCDs (រស់នៅដោយសុខភាពល្អជាមួយជំងឺមិនឆ្លង)</h2>
-        <p>
-          While non-communicable diseases are chronic conditions that cannot be
-          cured in most cases, they can be effectively managed. With proper
-          treatment, lifestyle modifications, and support, people with NCDs can
-          lead fulfilling, active lives. The key to successful management lies
-          in understanding your condition, working closely with healthcare
-          providers, and taking an active role in your own care.
-          (ដោយសារជំងឺមិនឆ្លងគឺជាជំងឺប្រចាំកាយដែលមិនអាចព្យាបាលបានភាគច្រើន
-          ប៉ុន្តែវាអាចគ្រប់គ្រងបានយ៉ាងមានប្រសិទ្ធភាព។ ដោយមានការព្យាបាលត្រឹមត្រូវ
-          ការផ្លាស់ប្តូររបៀបរស់នៅ និងការគាំទ្រ
-          អ្នកដែលមានជំងឺមិនឆ្លងអាចរស់នៅយ៉ាងសប្បាយរីករាយ និងសកម្ម។
-          គន្លឹះនៃការគ្រប់គ្រងដោយជោគជ័យ គឺការយល់ដឹងពីស្ថានភាពរបស់អ្នក
-          ធ្វើការជាមួយអ្នកផ្តល់សេវាសុខាភិបាល
-          និងចូលរួមយ៉ាងសកម្មក្នុងការថែរក្សាសុខភាពរបស់ខ្លួន។)
-        </p>
+        <h2>What Are Non-Communicable Diseases? (ជំងឺមិនឆ្លងមានអ្វីខ្លះ?)</h2>
+        <p>ជំងឺមិនឆ្លង (Non-communicable diseases - NCDs) ឬដែលគេហៅថា ជំងឺរ៉ាំរ៉ៃ គឺជាជំងឺដែលមានរយៈពេលវែង និងអភិវឌ្ឍយឺតៗ។ ខុសពីជំងឺឆ្លង ជំងឺមិនឆ្លងមិនអាចបញ្ជូនពីមនុស្សម្នាក់ទៅមនុស្សម្នាក់ទៀតបានទេ។ វាបណ្តាលមកពីកត្តាជាច្រើន រួមមានកត្តាជាតិសាស្ត្រ ធម្មជាតិ បរិស្ថាន និងអាកប្បកិរិយារបស់មនុស្ស។</p>
 
-        <div class="success-box">
-          <strong>Empowerment Through Knowledge (ការផ្តល់អំណាចតាមចំណេះដឹង):</strong>
-          Being diagnosed with an NCD is not the end—it's the beginning of a
-          journey toward better health management. Many people with NCDs live
-          long, productive lives by taking control of their health and following
-          evidence-based management strategies.
-          (ការត្រូវបានរោគវិនិច្ឆ័យជាមួយជំងឺមិនឆ្លងមិនមែនជាចុងបញ្ចប់ទេ
-          វាជាចំណុចចាប់ផ្តើមនៃការធ្វើដំណើរទៅរកការគ្រប់គ្រងសុខភាពល្អប្រសើរ។
-          មនុស្សជាច្រើនដែលមានជំងឺមិនឆ្លងរស់នៅបានយូរ និងមានផលិតភាព
-          ដោយចូលគ្រប់គ្រងសុខភាពរបស់ខ្លួន និងអនុវត្តយុទ្ធសាស្ត្រគ្រប់គ្រងផ្អែកលើអ
-          evidencia ។)
-        </div>
-
-        <h2>Medical Treatment and Care (ការព្យាបាលវេជ្ជសាស្ត្រ និងការថែទាំ)</h2>
-        <p>
-          Effective medical management is the foundation of NCD care. This
-          involves working with healthcare professionals to develop and follow a
-          comprehensive treatment plan tailored to your specific condition and
-          needs.
-          (ការគ្រប់គ្រងវេជ្ជសាស្ត្រដោយមានប្រសិទ្ធភាពគឺជាមូលដ្ឋាននៃការថែទាំជំងឺមិនឆ្លង។
-          វារួមមានការធ្វើការជាមួយអ្នកជំនាញសុខាភិបាល ដើម្បីបង្កើត
-          និងអនុវត្តផែនការព្យាបាលទូលំទូលាយ ដែលសមស្របនឹងស្ថានភាព
-          និងតម្រូវការរបស់អ្នក។)
-        </p>
-
-        <h3>
-          Key Components of Medical Care (ធាតុសំខាន់នៃការថែទាំវេជ្ជសាស្ត្រ):
-        </h3>
-        <ul>
-          <li>
-            <strong>Regular medical check-ups
-              (ការត្រួតពិនិត្យវេជ្ជសាស្ត្ររៀងរាល់ពេល):</strong>
-            Schedule and attend all appointments with your healthcare team to
-            monitor your condition and adjust treatment as needed. (កំណត់ពេល
-            និងចូលរួមជួបគ្រូពេទ្យទាំងអស់ ដើម្បីត្រួតពិនិត្យស្ថានភាពរបស់អ្នក
-            និងកែសម្រួលការព្យាបាលនៅពេលត្រូវការ។)
-          </li>
-          <li>
-            <strong>Medication adherence (ការអនុវត្តថ្នាំតាមសេចក្តីណែនាំ):</strong>
-            Take prescribed medications exactly as directed, at the right time
-            and dosage. Never stop or change medications without consulting your
-            doctor. (ទទួលថ្នាំដែលបានវាយតម្លៃតាមការណែនាំពេញលេញ នៅពេល
-            និងទំហំត្រឹមត្រូវ។ មិនត្រូវបញ្ឈប់
-            ឬប្តូរថ្នាំដោយមិនប្រឹងប្រែងពិគ្រោះជាមួយវេជ្ជបណ្ឌិត។)
-          </li>
-          <li>
-            <strong>Understanding your medications
-              (ការយល់ដឹងអំពីថ្នាំរបស់អ្នក):</strong>
-            Learn about each medication's purpose, potential side effects, and
-            interactions with other drugs or foods. (សិក្សាអំពីគោលបំណង ផលប៉ះពាល់
-            ដែលអាចមាន និងការប៉ះពាល់ជាមួយថ្នាំ ឬម្ហូបផ្សេងៗ។)
-          </li>
-          <li>
-            <strong>Specialist care (ការថែទាំដោយអ្នកជំនាញ):</strong> Work with
-            specialists such as cardiologists, endocrinologists, oncologists, or
-            pulmonologists as recommended. (ធ្វើការជាមួយអ្នកជំនាញដូចជា
-            គ្រូបេះដូង គ្រូបញ្ចេញហូមូន គ្រូព្យាបាលមហារីក ឬគ្រូសួតតាមការណែនាំ។)
-          </li>
-          <li>
-            <strong>Diagnostic tests (ការធ្វើតេស្តវេជ្ជសាស្ត្រ):</strong>
-            Complete recommended laboratory tests, imaging studies, and other
-            diagnostic procedures to monitor disease progression and treatment
-            effectiveness. (បញ្ចប់ការធ្វើតេស្តមន្ទីរពិសោធន៍ ការសិក្សារូបភាព
-            និងនិម្មិតវេជ្ជសាស្ត្រផ្សេងៗ ដើម្បីត្រួតពិនិត្យការរីកចម្រើននៃជំងឺ
-            និងប្រសិទ្ធភាពការព្យាបាល។)
-          </li>
-        </ul>
+        <p>ជំងឺមិនឆ្លងជាបញ្ហាសុខភាពដ៏ធំមួយនៅសតវត្សរ៍ទី ២១។ នៅឆ្នាំ ២០២១ ជំងឺទាំងនេះបានបណ្តាលឲ្យមានការស្លាប់ប្រហែល ៤៣ លាននាក់ជាសកល ដែលជាង ៧៥% នៃការស្លាប់មិនទាក់ទងនឹងជំងឺរាតត្បាត។ បញ្ហាដ៏គួរឱ្យព្រួយបារម្ភគឺការស្លាប់ជាច្រើននេះកើតឡើងមុនអាយុ ៧០ ឆ្នាំ ហើយអាចជៀសវាងបានតាមរយៈការផ្លាស់ប្តូររបៀបរស់នៅ និងការព្យាបាលដំបូង។</p>
 
         <div class="info-box">
-          <strong>Medication Management Tips (គន្លឹះគ្រប់គ្រងថ្នាំ):</strong>
-          Use pill organizers, set phone reminders, keep a medication list with
-          you at all times, and maintain open communication with your pharmacist
-          about any concerns or questions. (ប្រើអ្នករៀបចំថ្នាំ
-          កំណត់ការជូនដំណឹងលើទូរស័ព្ទ រក្សាបញ្ជីថ្នាំជាមួយអ្នកជានិច្ច
-          និងរក្សាការទំនាក់ទំនងចំហរ
-          ជាមួយเภស្ករទីផ្សាររបស់អ្នកអំពីបញ្ហាឬសំណួរណាមួយ។)
+          <strong>លក្ខណៈសំខាន់៖</strong> ជំងឺមិនឆ្លងជាធម្មតាមានរយៈពេលវែង ត្រូវការការថែទាំវេជ្ជសាស្ត្របន្ត និងមានឥទ្ធិពលលើសកម្មភាពប្រចាំថ្ងៃ។ វាមានលក្ខណៈអភិវឌ្ឍយឺតៗ និងមិនបង្ហាញរោគសញ្ញាដំបូងឡើយ រហូតដល់វាផ្លាស់ប្តូរទៅជាដំណាក់កាលធ្ងន់ធ្ងរ។
         </div>
 
-        <h2>Self-Management Strategies (យុទ្ធសាស្ត្រគ្រប់គ្រងខ្លួនឯង)</h2>
-        <p>
-          Self-management involves the daily tasks and decisions you make to
-          control your condition and maintain your health. Developing strong
-          self-management skills empowers you to take charge of your health and
-          improve outcomes. (ការគ្រប់គ្រងខ្លួនឯងរួមមានកិច្ចការរបស់ប្រចាំថ្ងៃ
-          និងសេចក្តីសម្រេចចិត្តដែលអ្នកធ្វើ ដើម្បីត្រួតពិនិត្យស្ថានភាព
-          និងថែរក្សាសុខភាព។
-          ការអភិវឌ្ឍជំនាញគ្រប់គ្រងខ្លួនឯងខ្លាំងធ្វើអោយអ្នកអាចទទួលខុសត្រូវលើសុខភាពរបស់ខ្លួន
-          និងលទ្ធផលល្អប្រសើរ។)
-        </p>
+        <h2 id="cardiovascular">Cardiovascular Diseases (ជំងឺបេះដូង និងសសៃឈាម)</h2>
+        <p>ជំងឺបេះដូង និងសសៃឈាម (Cardiovascular Diseases - CVDs) គឺជាមូលហេតុនៃការស្លាប់ចម្បងបំផុតក្នុងចំណោមជំងឺមិនឆ្លង បណ្តាលឲ្យស្លាប់ប្រហែល ១៩ លាននាក់ប្រចាំឆ្នាំ។ ជំងឺទាំងនេះប៉ះពាល់ដល់បេះដូង និងសសៃឈាម រួមមានជំងឺសរសៃឈាមបេះដូង សត្វបេះដូង ឬស្ត្រូក ជំងឺបេះដូងខ្សោយ និងជំងឺសសៃឈាមតូច។</p>
 
-        <h3>
-          Essential Self-Management Skills (ជំនាញសំខាន់ៗនៃការគ្រប់គ្រងខ្លួនឯង):
-        </h3>
+        <h3>ប្រភេទទូទៅ៖</h3>
         <ul>
-          <li>
-            <strong>Symptom monitoring (ការត្រួតពិនិត្យរោគសញ្ញា):</strong> Learn
-            to recognize and track your symptoms, knowing when they indicate a
-            need for medical attention. (រៀនដើម្បីស្គាល់
-            និងតាមដានរោគសញ្ញារបស់អ្នក
-            ដឹងពេលណាវាបង្ហាញពីតម្រូវការទៅព្យាបាលវេជ្ជសាស្ត្រ។)
-          </li>
-          <li>
-            <strong>Blood pressure monitoring (ការត្រួតពិនិត្យសំពាធឈាម):</strong>
-            If you have hypertension or cardiovascular disease, regularly check
-            and record your blood pressure at home. (បើអ្នកមានសំពាធឈាមខ្ពស់
-            ឬជំងឺបេះដូង វាយតម្លៃ និងកត់ត្រាសំពាធឈាមនៅផ្ទះជាប្រចាំ។)
-          </li>
-          <li>
-            <strong>Blood glucose monitoring
-              (ការត្រួតពិនិត្យជាតិស្ករក្នុងឈាម):</strong>
-            For diabetes management, regularly test blood sugar levels as
-            recommended by your healthcare team.
-            (សម្រាប់ការគ្រប់គ្រងជំងឺទឹកនោមផ្អែម
-            តេស្តជាតិស្ករក្នុងឈាមជាប្រចាំតាមការណែនាំដោយក្រុមសុខាភិបាល។)
-          </li>
-          <li>
-            <strong>Weight management (ការគ្រប់គ្រងទម្ងន់):</strong> Monitor
-            your weight regularly and work toward maintaining a healthy weight
-            range. (ត្រួតពិនិត្យទម្ងន់ជាប្រចាំ
-            និងខិតខំរក្សាកម្រិតទម្ងន់មានសុខភាពល្អ។)
-          </li>
-          <li>
-            <strong>Keeping health records (ការរក្សាកំណត់ត្រាសុខភាព):</strong>
-            Maintain organized records of test results, medications, symptoms,
-            and medical visits. (រក្សាកំណត់ត្រាជាមួយលំអិតនៃលទ្ធផលតេស្ត ថ្នាំ
-            រោគសញ្ញា និងការទៅព្យាបាលវេជ្ជសាស្ត្រ។)
-          </li>
-          <li>
-            <strong>Problem-solving (ជំនាញដោះស្រាយបញ្ហា):</strong> Develop
-            skills to identify and address challenges in managing your
-            condition. (អភិវឌ្ឍជំនាញសម្រាប់ស្គាល់
-            និងដោះស្រាយបញ្ហាក្នុងការគ្រប់គ្រងស្ថានភាពរបស់អ្នក។)
-          </li>
+          <li><strong>Coronary Heart Disease:</strong> កើតឡើងពេលសសៃឈាមបេះដូងត្រូវបានបិទ ឬរឹងស្អិត អាចបណ្តាលឲ្យបេះដូងឈប់ដំណើរការ។</li>
+          <li><strong>Stroke:</strong> កើតឡើងពេលការផ្គត់ផ្គង់ឈាមទៅខួរក្បាលត្រូវបានរារាំង បណ្តាលឲ្យកោសិកាខួរក្បាលស្លាប់។</li>
+          <li><strong>Heart Failure:</strong> បេះដូងមិនអាចបូមឈាមបានគ្រប់គ្រាន់សម្រាប់តម្រូវការរបស់រាងកាយ។</li>
+          <li><strong>Hypertension:</strong> សម្ពាធឈាមខ្ពស់ជាបន្តបន្ទាប់ ដែលប៉ះពាល់ដល់សសៃឈាម និងសរីរាង្គផ្សេងៗ។</li>
         </ul>
 
-        <!-- Continue the same pattern for the rest of the page -->
+        <h3>កត្តាហានិភ័យ៖</h3>
+        <p>កត្តាហានិភ័យសំខាន់ៗរួមមាន សម្ពាធឈាមខ្ពស់ ខ្លាញ់ឈាមខ្ពស់ ជក់បារី ទឹកនោមផ្អែម រាងកាយធាត់ ខ្វះសកម្មភាព និងអាហារមិនមានសុខភាពល្អ។ កត្តាទាំងនេះអាចត្រូវបានបង្ការ ឬបន្ថយតាមរយៈការផ្លាស់ប្តូររបៀបរស់នៅ។</p>
+
+        <div class="warning-box">
+          <strong>សញ្ញាផ្តល់ព្រមាន៖</strong> ឈឺទ្រូង ដង្ហើមខ្លី ឈឺដៃ ឬថ្គាម ឈឺក្បាលខ្លាំង ភាពស្លេកស្លាំង ឬខ្សោយខាងតែមួយនៃរាងកាយ។ ប្រសិនបើមានរោគសញ្ញាទាំងនេះ សូមទៅជួបគ្រូពេទ្យភ្លាមៗ។
+        </div>
+
+        <h2 id="cancer">Cancers (ជំងឺមហារីក)</h2>
+        <p>ជំងឺមហារីកគឺជាការរីកលូតលាស់និងការរីករាលដាលនៃកោសិកាមិនធម្មតា។ ប្រសិនបើមិនគ្រប់គ្រង វាអាចរីករាលដាលទូទាំងរាងកាយ ហើយអាចនាំឲ្យស្លាប់។ នៅឆ្នាំ ២០២១ មហារីកបានបណ្តាលឲ្យស្លាប់ប្រហែល ១០ លាននាក់ជាសកល។</p>
+
+        <h3>ប្រភេទទូទៅ៖</h3>
+        <ul>
+          <li><strong>Lung Cancer:</strong> ជាដំណាក់កាលដែលភាគច្រើនទាក់ទងនឹងការជក់បារី។</li>
+          <li><strong>Breast Cancer:</strong> ជាមហារីកទូទៅបំផុតនៅស្ត្រី។</li>
+          <li><strong>Colorectal Cancer:</strong> ប៉ះពាល់ដល់ពោះវៀនធំ ឬត្រគាក និងអាចបង្ការបានតាមរយៈការត្រួតពិនិត្យ។</li>
+          <li><strong>Prostate Cancer:</strong> ជាញឹកញាប់ក្នុងបុរសពេញវ័យ។</li>
+          <li><strong>Skin Cancer:</strong> រួមទាំង Melanoma ជាផលវិបាកពីពន្លឺអ៊ុលត្រាវីយូឡេ។</li>
+        </ul>
+
+        <h3>កត្តាហានិភ័យ៖</h3>
+        <p>ការជក់បារី ផឹកស្រា អាហារមិនល្អ ខ្វះសកម្មភាព រាងកាយធាត់ ការឆ្លងមេរោគ (ដូចជា HPV ឬ hepatitis) បរិស្ថានកខ្វក់ និងកាំរស្មី។ កត្តាជាតិសាស្ត្រផងដែរ អាចមានឥទ្ធិពល។</p>
+
+        <div class="success-box">
+          <strong>ការរកឃើញដំបូងជួយសង្គ្រោះជីវិត៖</strong> មហារីកជាច្រើនអាចព្យាបាលបានប្រសិនបើរកឃើញដំបូង។ ការត្រួតពិនិត្យទៀងទាត់ និងការយល់ដឹងអំពីរោគសញ្ញា ជួយបង្កើនឱកាសជាសះស្បើយ។
+        </div>
+
+        <h2 id="respiratory">Chronic Respiratory Diseases (ជំងឺផ្លូវដង្ហើមរ៉ាំរ៉ៃ)</h2>
+        <p>ជំងឺផ្លូវដង្ហើមរ៉ាំរ៉ៃប៉ះពាល់ដល់សួត និងផ្លូវដង្ហើម បណ្តាលឲ្យស្លាប់ប្រហែល ៤ លាននាក់ប្រចាំឆ្នាំ។ ជំងឺទូទៅមានជំងឺសួតខ្សោយ (COPD) និងជំងឺហាស់សួត។</p>
+
+        <h3>ប្រភេទទូទៅ៖</h3>
+        <ul>
+          <li><strong>Chronic Obstructive Pulmonary Disease (COPD):</strong> ជាជំងឺដែលធ្វើឲ្យដង្ហើមពិបាក កើតឡើងដោយការទទួលខ្យល់កខ្វក់ ឬជក់បារីរយៈពេលវែង។</li>
+          <li><strong>Asthma:</strong> ផ្លូវដង្ហើមតឹង និងបង្កើនស្លេស្ម បណ្តាលឲ្យក្អក និងដង្ហើមខ្លី។</li>
+          <li><strong>Occupational Lung Diseases:</strong> បណ្តាលដោយការប៉ះពាល់ជាបន្តបន្ទាប់នៃធូលី ឬគីមីនៅកន្លែងធ្វើការ។</li>
+        </ul>
+
+        <h3>កត្តាហានិភ័យ៖</h3>
+        <p>ការជក់បារី មេឃកខ្វក់ គីមី ឬធូលីនៅកន្លែងធ្វើការ និងជំងឺផ្លូវដង្ហើមនៅវ័យកុមារ។ កត្តាជាតិសាស្ត្រផងដែរ អាចបង្កើនហានិភ័យ។</p>
+
+        <div class="info-box">
+          <strong>ការរស់នៅជាមួយជំងឺផ្លូវដង្ហើម៖</strong> ទោះជាមិនអាចព្យាបាលអោយជាសះស្បើយបាន ក៏អាចគ្រប់គ្រងបានល្អតាមរយៈការព្យាបាល និងរបៀបរស់នៅត្រឹមត្រូវ។
+        </div>
+
+        <h2 id="diabetes">Diabetes (ជំងឺទឹកនោមផ្អែម)</h2>
+        <p>ជំងឺទឹកនោមផ្អែមគឺជាជំងឺរ៉ាំរ៉ៃ ដែលបណ្តាលឲ្យមានជាតិស្ករខ្ពស់ក្នុងឈាម។ វាកើតឡើងពេលក្រពះមិនផលិតអ៊ីនស៊ុលីនគ្រប់គ្រាន់ ឬរាងកាយមិនអាចប្រើអ៊ីនស៊ុលីនបានល្អ។ ជំងឺនេះបណ្តាលឲ្យស្លាប់ប្រហែល ២ លាននាក់ប្រចាំឆ្នាំ។</p>
+
+        <h3>ប្រភេទនៃជំងឺទឹកនោមផ្អែម៖</h3>
+        <ul>
+          <li><strong>Type 1 Diabetes:</strong> ប្រព័ន្ធភាពស៊ាំវាយប្រហារកោសិកាផលិតអ៊ីនស៊ុលីន។ កើតឡើងនៅកុមារ ឬវ័យក្មេង។</li>
+          <li><strong>Type 2 Diabetes:</strong> ជាប្រភេទទូទៅបំផុត មានទំនាក់ទំនងជិតស្និទ្ធនឹងភាពធាត់ និងការខ្វះសកម្មភាព។</li>
+          <li><strong>Gestational Diabetes:</strong> កើតឡើងពេលមានផ្ទៃពោះ ហើយអាចបាត់បង់បន្ទាប់ពីសម្រាលកូន ប៉ុន្តែបង្កើនហានិភ័យនៃ Type 2។</li>
+        </ul>
+
+        <h3>ផលវិបាក៖</h3>
+        <p>ប្រសិនបើមិនគ្រប់គ្រងល្អ អាចបណ្តាលឲ្យជំងឺបេះដូង ជំងឺតម្រងនោម ភ្នែកស្រអាប់ សរសៃប្រសាទខូច និងដៃជើងខូច។ ប៉ុន្តែដោយការគ្រប់គ្រងត្រឹមត្រូវ អ្នកអាចរស់នៅយូរ និងមានសុខភាពល្អ។</p>
+
+        <div class="warning-box">
+          <strong>រោគសញ្ញាទូទៅ៖</strong> ស្រេកទឹកញឹកញាប់ ទឹកនោមញឹកញាប់ សន្លប់ ធ្លាក់ទម្ងន់មិនដឹងមូលហេតុ ភ្នែកស្រអាប់ ឬរបួសមិនជាសះស្បើយលឿន។ ប្រសិនបើមានរោគសញ្ញាទាំងនេះ សូមពិនិត្យជាមួយគ្រូពេទ្យ។
+        </div>
+
+        <h2>The Global Impact (ឥទ្ធិពលលើសកល)</h2>
+        <p>ជំងឺមិនឆ្លងប៉ះពាល់ខ្លាំងជាងគេដល់ប្រទេសមានប្រាក់ចំណូលមធ្យម និងទាប ដែលប្រមាណ ៣/៤ នៃការស្លាប់សរុបកើតនៅទីនោះ។ វាបណ្តាលដោយការចូលដល់សេវាសុខាភិបាលមានកម្រិត អត់ចេះអំពីហានិភ័យ និងបរិស្ថានមិនល្អ។</p>
+
+        <p>ជំងឺទាំងនេះក៏ប៉ះពាល់ដល់សេដ្ឋកិច្ច ដោយបង្កើនការចំណាយសុខាភិបាល បន្ថយផលិតភាពការងារ និងធ្វើឲ្យគ្រួសារក្រីក្រ។ ដើម្បីដោះស្រាយត្រូវការការសហការពីរដ្ឋាភិបាល ប្រព័ន្ធសុខាភិបាល សហគមន៍ និងមនុស្សរាល់គ្នា។</p>
+
+        <div class="success-box">
+          <strong>សង្ឃឹម និងសកម្មភាព៖</strong> ទោះបីជាជំងឺមិនឆ្លងមានភាពធ្ងន់ធ្ងរ ក៏អាចបង្ការ ឬគ្រប់គ្រងបាន។ ការយល់ដឹងអំពីហានិភ័យ របៀបរស់នៅល្អ និងការត្រួតពិនិត្យជាប្រចាំ ជួយបន្ថយហានិភ័យនិងធ្វើឲ្យជីវិតប្រសើរឡើង។
+        </div>
+
+        <div style="text-align: center; margin-top: 3rem;">
+          <a href="prevention.html" class="btn btn-primary">ស្វែងយល់អំពីការការពារ (Learn About Prevention)</a>
+          <a href="management.html" class="btn btn-secondary">យុទ្ធសាស្ត្រការគ្រប់គ្រង (Management Strategies)</a>
+        </div>
       </div>
     </section>
   </div>
