@@ -54,28 +54,28 @@
             <div class="ncd-icon cardiovascular" />
             <h3>ជំងឺសរសៃឈាមបេះដូង</h3>
             <p>រួមទាំងជំងឺគាំងបេះដូង និងជំងឺដាច់សរសៃឈាមខួរក្បាល ជំងឺសរសៃឈាមបេះដូងគឺជាមូលហេតុនាំមុខនៃការស្លាប់ដោយជំងឺមិនឆ្លង ដែលមានចំណែក 19 លាននាក់ស្លាប់ជារៀងរាល់ឆ្នាំ។</p>
-            <a href="understanding.html#cardiovascular" class="card-link">ស្វែងយល់បន្ថែម →</a>
+            <router-link class="card-link" :to="{ path: '/understanding', hash: '#cardiovascular' }">ស្វែងយល់បន្ថែម →</router-link>
           </div>
 
           <div class="ncd-card">
             <div class="ncd-icon cancer" />
             <h3>ជំងឺមហារីក</h3>
             <p>ជំងឺមហារីកប្រភេទផ្សេងៗប៉ះពាល់ដល់មនុស្សរាប់លាននាក់នៅទូទាំងពិភពលោក ដែលបណ្តាលឱ្យមានមនុស្សប្រហែល 10 លាននាក់ស្លាប់ជារៀងរាល់ឆ្នាំ។ ការរកឃើញមុនពេលគឺមានសារៈសំខាន់ណាស់។</p>
-            <a href="understanding.html#cancer" class="card-link">ស្វែងយល់បន្ថែម →</a>
+            <router-link class="card-link" :to="{ path: '/understanding', hash: '#cancer' }">ស្វែងយល់បន្ថែម →</router-link>
           </div>
 
           <div class="ncd-card">
             <div class="ncd-icon respiratory" />
             <h3>ជំងឺផ្លូវដង្ហើមរ៉ាំរ៉ៃ</h3>
             <p>រួមទាំងជំងឺ COPD និងជំងឺហឺត ជំងឺទាំងនេះប៉ះពាល់ដល់ការដកដង្ហើម និងបណ្តាលឱ្យមានមនុស្សប្រហែល 4 លាននាក់ស្លាប់ជារៀងរាល់ឆ្នាំ។</p>
-            <a href="understanding.html#respiratory" class="card-link">ស្វែងយល់បន្ថែម →</a>
+            <router-link class="card-link" :to="{ path: '/understanding', hash: '#respiratory' }">ស្វែងយល់បន្ថែម →</router-link>
           </div>
 
           <div class="ncd-card">
             <div class="ncd-icon diabetes" />
             <h3>ជំងឺទឹកនោមផ្អែម</h3>
             <p>ជំងឺរំលាយអាហារដែលប៉ះពាល់ដល់ការគ្រប់គ្រងជាតិស្ករក្នុងឈាម ជំងឺទឹកនោមផ្អែមបណ្តាលឱ្យមានមនុស្សលើសពី 2 លាននាក់ស្លាប់ក្នុងមួយឆ្នាំ រួមទាំងផលវិបាកនៃជំងឺតម្រងនោម។</p>
-            <a href="understanding.html#diabetes" class="card-link">ស្វែងយល់បន្ថែម →</a>
+            <router-link class="card-link" :to="{ path: '/understanding', hash: '#diabetes' }">ស្វែងយល់បន្ថែម →</router-link>
           </div>
         </div>
       </div>
