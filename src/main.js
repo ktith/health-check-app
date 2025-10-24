@@ -20,6 +20,11 @@ import './utils/error-log' // error log
 
 import * as filters from './filters' // global filters
 
+import i18n from '@/lang' // { changed code }
+import ElementLocale from 'element-ui/lib/locale' // { changed code }
+
+ElementLocale.i18n((key, val) => i18n.t(key, val)) // { changed code }
+
 /**
  * If you don't want to use mock-server
  * you want to use MockJs for mock api
@@ -49,5 +54,6 @@ new Vue({
   el: '#app',
   router,
   store,
+  i18n, // { changed code }
   render: h => h(App)
 })
