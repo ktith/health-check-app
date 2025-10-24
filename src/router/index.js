@@ -121,7 +121,8 @@ export const constantRoutes = [
         path: '',
         component: () => import('@/views/dashboard/index'),
         name: 'Dashboard',
-        meta: { title: 'route.dashboard', icon: 'dashboard', affix: true }
+        // route.dashboard is defined in src/lang/en.js and other language files
+        meta: { title: 'Dashboard', icon: 'dashboard', affix: true }
       }
     ]
   },
