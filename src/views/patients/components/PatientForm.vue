@@ -3,7 +3,7 @@
     <el-form ref="postForm" :model="postForm" :rules="rules" class="form-container">
       <sticky :z-index="10" :class-name="'sub-navbar '+postForm.status">
         <el-button v-loading="loading" style="margin-left: 10px;" type="success" @click="submitForm">
-          Save
+          {{ isEdit ? 'Update' : 'Add Patient' }}
         </el-button>
         <el-button v-loading="loading" type="warning" @click="draftForm">
           Cancel
