@@ -164,10 +164,7 @@
 <script>
 
 import Sticky from '@/components/Sticky'
-
-// import firebase firestore
-import db from '@/firebase/init.js'
-import { collection, addDoc } from 'firebase/firestore'
+import { fetchPatient, addPatients } from '@/api/patient'
 
 const vitalLabels = {
   bloodPressure: 'សម្ពាធឈាម (Blood Pressure)',
@@ -220,10 +217,6 @@ export default {
   data() {
     const validateRequire = (rule, value, callback) => {
       if (value === '') {
-        // this.$message({
-        //   message: rule.field + ' is required',
-        //   type: 'error'
-        // })
         callback(new Error(rule.field + ' is required'))
       } else {
         callback()
@@ -268,43 +261,57 @@ export default {
   },
   methods: {
     fetchData(id) {
-      this.fetchPatient(id)
-    },
-    fetchPatient(id) {
-      console.log('Fetching patient with ID:', id)
+      fetchPatient(id).then(response => {
+        if (response) {
+          this.postForm = response
+        } else {
+          this.$notify.error({
+            title: 'Error',
+            message: 'Patient not found'
+          })
+          this.$router.push({ name: 'PatientList' })
+        }
+      }).catch(error => {
+        console.error('Error fetching patient data:', error)
+        this.$notify.error({
+          title: 'Error',
+          message: 'Failed to fetch patient data'
+        })
+        this.$router.push({ name: 'PatientList' })
+      })
     },
     draftForm() {
       console.log('Draft cancelled')
       this.$router.push({ name: 'PatientList' })
     },
     submitForm() {
-      console.log(this.postForm)
+      // console.log(this.postForm)
       this.$refs.postForm.validate(valid => {
         if (valid) {
-          this.addPatients(this.postForm)
           this.loading = true
-          this.$notify({
-            title: 'Successfully!',
-            message: 'Record has been saved.',
-            type: 'success',
-            duration: 2000
+          addPatients(this.postForm).then(() => {
+            this.$notify({
+              title: 'Successfully!',
+              message: 'Record has been saved.',
+              type: 'success',
+              duration: 2000
+            })
+            this.loading = false
+            this.$router.push({ name: 'PatientList' })
+          }).catch(error => {
+            console.error('Error adding patient:', error)
+            this.$notify.error({
+              title: 'Error',
+              message: 'Failed to save record'
+            })
           })
-          this.postForm.status = 'published'
-          this.loading = false
         } else {
           console.log('error submit!!')
           return false
         }
       })
-    },
-    // Function to add a new patient document to Firestore
-    async addPatients(dataObj) {
-      console.log('Adding patient:', dataObj)
-      const colRef = collection(db, 'patients')
-      const docRef = await addDoc(colRef, dataObj)
-      console.log('Document was created with ID:', docRef.id)
-      this.$router.push({ name: 'PatientList' })
     }
+
   }
 }
 </script>

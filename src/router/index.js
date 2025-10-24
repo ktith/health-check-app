@@ -163,10 +163,11 @@ export const asyncRoutes = [
         meta: { title: 'Create Patient', icon: 'edit' }
       },
       {
-        path: 'edit/:id(\\d+)',
+        path: 'edit/:id([A-Za-z0-9_-]+)',
         component: () => import('@/views/patients/edit'),
         name: 'EditPatient',
         meta: { title: 'Edit Patient', noCache: true, activeMenu: '/patients/list' },
+        props: true,
         hidden: true
       },
       {
